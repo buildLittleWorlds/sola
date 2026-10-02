@@ -6,7 +6,7 @@ if (!base.startsWith('/') || !base.endsWith('/')) throw new Error('BASE_PATH mus
 const files = (await walk('dist')).filter(f => !f.endsWith('/sw.js')).sort();
 const digest = createHash('sha256');
 for (const f of files) digest.update(await readFile(f));
-const cache = `bible-memory-${digest.digest('hex').slice(0,16)}`;
+const cache = `sola-${digest.digest('hex').slice(0,16)}`;
 const priority = path => path.startsWith(base + 'aids/') ? 2 : path.startsWith(base + 'corpus/') ? 1 : 0;
 const paths = [base, ...files.map(f => base + f.slice(5)).sort((a, b) => priority(a) - priority(b) || a.localeCompare(b))];
 const aidManifest = JSON.parse(await readFile('dist/aids/manifest.json', 'utf8'));
@@ -41,7 +41,7 @@ self.addEventListener('install', event => {
   })());
 });
 self.addEventListener('activate', event => event.waitUntil((async () => {
-  for (const key of await caches.keys()) if (key.startsWith('bible-memory-') && key !== CACHE) await caches.delete(key);
+  for (const key of await caches.keys()) if (key.startsWith('sola-') && key !== CACHE) await caches.delete(key);
   await self.clients.claim();
   for (const client of await self.clients.matchAll()) client.postMessage({ type: 'OFFLINE_READY', aidVersion: AID_VERSION, aidHash: AID_HASH });
 })()));

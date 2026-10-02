@@ -19,7 +19,7 @@ export interface Progress {
   circuit: { position: number; round: number };
   settings: { increment: number; fontSize: number; cantillation: boolean; showGlosses: boolean; showHebrewTransliteration: boolean; showGreekTransliteration: boolean };
 }
-export interface Backup { format: 'bible-memory-backup'; exportedAt: string; progress: Progress }
+export interface Backup { format: 'sola-backup'; exportedAt: string; progress: Progress }
 export type PronunciationStatus = 'accent-derived' | 'written-accent' | 'reviewed' | 'stress-unconfirmed' | 'pronunciation-unconfirmed' | 'joined' | 'unavailable' | 'convention';
 export interface ReadingAid {
   gloss: string | null;

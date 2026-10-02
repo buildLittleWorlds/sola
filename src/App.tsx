@@ -176,13 +176,13 @@ export function App({ corpus, initial }: { corpus: Corpus; initial: Progress }) 
   function resume() { setBrowseId(null); setPanel(null); setNotice(''); }
   function download() {
     const blob = new Blob([JSON.stringify(makeBackup(progress), null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `bible-memory-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+    const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `sola-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
   async function readBackup(file: File | undefined) {
     setImportError(''); setImportPreview(null);
     if (!file) return;
     try {
-      if (file.size > 5_000_000) throw new Error('This file is too large to be a Bible Memory backup.');
+      if (file.size > 5_000_000) throw new Error('This file is too large to be a Sola backup.');
       setImportPreview(parseBackup(await file.text(), corpus));
     } catch (error) { setImportError(error instanceof Error ? error.message : 'Could not read that backup.'); }
     if (fileInput.current) fileInput.current.value = '';
@@ -213,7 +213,7 @@ export function App({ corpus, initial }: { corpus: Corpus; initial: Progress }) 
 
   return <div className="app-shell">
     <aside className="sidebar">
-      <a className="brand" href="#" onClick={e => { e.preventDefault(); resume(); }}><span className="brand-mark"><BookOpen size={22}/></span><span>Bible Memory<small>WORD BY WORD</small></span></a>
+      <a className="brand" href="#" onClick={e => { e.preventDefault(); resume(); }}><span className="brand-mark"><BookOpen size={22}/></span><span>Sola<small>WORD BY WORD</small></span></a>
       <div className="sidebar-section-label">YOUR PRACTICE</div>
       <nav aria-label="Main navigation">
         <button className={!browseId ? 'nav-item active' : 'nav-item'} onClick={resume}><BookOpen size={19}/>Review circuit<ChevronRight size={15}/></button>

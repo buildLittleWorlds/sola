@@ -1,3 +1,5 @@
+> Historical: this describes the Bible Memory baseline. This app is now named Sola and uses its own identifiers (see `README.md`); the names, database, cache prefix and backup format below are the old ones.
+
 # Bible Memory
 
 A personal app for growing a memorized passage in every chapter of the Hebrew/Aramaic Old Testament and Greek New Testament. All 66 books, fonts, and licenses are bundled. Review does not call an external service.

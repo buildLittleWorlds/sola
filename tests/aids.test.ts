@@ -186,7 +186,7 @@ describe('manual backups remain compatible after adding aids', () => {
     let progress = setEndpoint(initialProgress(corpus), corpus.chapters[0], 48);
     progress = advance(progress, 'GEN.1', true, '2026-09-25T12:00:00Z');
     const legacy = { ...progress, settings: { increment: 5, fontSize: 52, cantillation: true } };
-    const parsed = parseBackup(JSON.stringify({ format: 'bible-memory-backup', exportedAt: '2026-09-25T13:00:00Z', progress: legacy }), corpus).progress;
+    const parsed = parseBackup(JSON.stringify({ format: 'sola-backup', exportedAt: '2026-09-25T13:00:00Z', progress: legacy }), corpus).progress;
     expect(parsed.chapters).toEqual(progress.chapters);
     expect(parsed.circuit).toEqual(progress.circuit);
     expect(parsed.contentHash).toBe(originalFingerprint);

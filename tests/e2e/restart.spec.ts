@@ -10,7 +10,7 @@ async function seed(page: Page, legacyHandled = true) {
   p.circuit = { position: 5, round: 2 }; p.chapters['GEN.1'].visits = 7;
   await page.evaluate(async ({ progress, handled }) => {
     await new Promise<void>((resolve, reject) => {
-      const req = indexedDB.open('bible-memory', 1);
+      const req = indexedDB.open('sola', 1);
       req.onupgradeneeded = () => req.result.createObjectStore('state'); req.onerror = () => reject(req.error);
       req.onsuccess = () => {
         const db = req.result; const tx = db.transaction('state', 'readwrite');
@@ -44,7 +44,7 @@ test('visiting the reset page alone or the main app does not silently change the
   await seed(page, false);
   await page.goto('restart.html');
   await expect(page.locator('#place')).toContainText('Genesis 5');
-  await page.getByRole('link', { name: 'Return to Bible Memory' }).click();
+  await page.getByRole('link', { name: 'Return to Sola' }).click();
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');
 });
 
@@ -54,7 +54,7 @@ test('restart waits for another app tab to close instead of racing its saved pro
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');
   const restart = await context.newPage(); await restart.goto('restart.html');
   await restart.getByRole('button', { name: 'Restart at Genesis 1' }).click();
-  await expect(restart.locator('#message')).toContainText('Close the other Bible Memory tab');
+  await expect(restart.locator('#message')).toContainText('Close the other Sola tab');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');
   await page.close();
   await restart.getByRole('button', { name: 'Restart at Genesis 1' }).click();

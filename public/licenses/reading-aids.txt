@@ -1,4 +1,4 @@
-BIBLE MEMORY READING AIDS
+SOLA READING AIDS
 
 Hebrew and Biblical Aramaic literal glosses, lemma tags and morphology: STEP Bible, https://www.STEPBible.org, from STEPBible-Data at the pinned revision in /aids/manifest.json. TAHOT and selected TAGNT data are used under CC BY 4.0. Derived changes: source-to-UXLC alignment, reference conversion, literal gloss formatting, classroom pronunciation corroboration, and explicit exceptions.
 
