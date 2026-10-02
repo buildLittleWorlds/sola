@@ -1,7 +1,7 @@
 import { expect, test, type Page } from '@playwright/test';
 
 async function open(page: Page) {
-  await page.goto('/');
+  await page.goto('');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 1');
   await expect(page.getByRole('button', { name: 'Reveal passage', exact: true })).toBeEnabled();
 }
@@ -156,7 +156,7 @@ test('an incomplete bundle with the right corpus hash is evicted so retry can re
 });
 
 test('a legacy worker readiness signal cannot claim the current reading aids are available offline', async ({ page, request }) => {
-  const manifest = await (await request.get('/aids/manifest.json')).json();
+  const manifest = await (await request.get('aids/manifest.json')).json();
   // Simulate an already-active pre-aids worker while the new release installs.
   // Actual cache completeness/reopening is covered by the offline test above.
   await page.addInitScript(() => {

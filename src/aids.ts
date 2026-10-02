@@ -1,4 +1,5 @@
 import type { AidBook, Corpus, ReadingAid } from './types';
+import { appPath } from './paths';
 import { createJsonRequest, type JsonRequest } from './resources';
 
 const books = new Map<string, JsonRequest<AidBook>>();
@@ -9,7 +10,7 @@ export async function loadChapterAids(id: string, corpus: Corpus, forceRefresh =
   const bookId = id.split('.')[0];
   if (forceRefresh) { books.get(bookId)?.cancel(); books.delete(bookId); }
   if (!books.has(bookId)) {
-    const request = createJsonRequest<AidBook>(`/aids/${bookId}.json`, { timeoutMs: 30_000, refresh: forceRefresh });
+    const request = createJsonRequest<AidBook>(appPath(`/aids/${bookId}.json`), { timeoutMs: 30_000, refresh: forceRefresh });
     request.promise = request.promise.then(data => {
       if (data.schemaVersion !== 1 || data.bookId !== bookId || data.corpusHash !== corpus.contentHash) throw new Error('These reading aids do not match this edition of the text.');
       const metas = corpus.chapters.filter(c => c.bookId === bookId);
@@ -44,5 +45,5 @@ export const aidSources: Record<string, { title: string; href: string }> = {
   'macula-sblgnt': { title: 'MACULA SBLGNT', href: 'https://github.com/Clear-Bible/macula-greek/tree/8423afe47b9e8f24b7772e808af45c7159a6fe7e/SBLGNT' },
   'hebrew-transliteration': { title: 'Hebrew transliteration & havarotjs', href: 'https://github.com/charlesLoder/hebrew-transliteration' },
   'greek-accentuation': { title: 'Greek accentuation', href: 'https://github.com/jtauber/greek-accentuation' },
-  'reviewed-override': { title: 'Documented reading-aid corrections', href: '/aids/corrections.json' },
+  'reviewed-override': { title: 'Documented reading-aid corrections', href: appPath('/aids/corrections.json') },
 };

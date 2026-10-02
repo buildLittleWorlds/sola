@@ -1,8 +1,9 @@
 import type { Chapter, Corpus } from './types';
+import { appPath } from './paths';
 import { createJsonRequest, type JsonRequest } from './resources';
 const loaded = new Map<string, JsonRequest<Chapter[]>>();
 export async function loadCorpus(): Promise<Corpus> {
-  const corpus = await createJsonRequest<Corpus>('/corpus/index.json').promise;
+  const corpus = await createJsonRequest<Corpus>(appPath('/corpus/index.json')).promise;
   if (corpus.schemaVersion !== 1 || corpus.chapters.length !== 1189 || corpus.books.length !== 66) throw new Error('The bundled corpus is incomplete.');
   return corpus;
 }
@@ -10,7 +11,7 @@ export async function loadChapter(id: string, forceRefresh = false): Promise<Cha
   const bookId = id.split('.')[0];
   if (forceRefresh) { loaded.get(bookId)?.cancel(); loaded.delete(bookId); }
   if (!loaded.has(bookId)) {
-    const request = createJsonRequest<Chapter[]>(`/corpus/${bookId}.json`, { refresh: forceRefresh });
+    const request = createJsonRequest<Chapter[]>(appPath(`/corpus/${bookId}.json`), { refresh: forceRefresh });
     request.promise = request.promise.then(chapters => {
       if (!Array.isArray(chapters) || !chapters.every(c => c.bookId === bookId && Array.isArray(c.tokens) && c.tokens.length > 0)) throw new Error('This book’s download is incomplete. Retry to download a fresh copy.');
       return chapters;

@@ -1,12 +1,14 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 async function walk(dir) { const entries = await readdir(dir, { withFileTypes: true }); return (await Promise.all(entries.map(e => e.isDirectory() ? walk(`${dir}/${e.name}`) : [`${dir}/${e.name}`]))).flat(); }
+const base = process.env.BASE_PATH ?? '/sola/';
+if (!base.startsWith('/') || !base.endsWith('/')) throw new Error('BASE_PATH must start and end with a slash.');
 const files = (await walk('dist')).filter(f => !f.endsWith('/sw.js')).sort();
 const digest = createHash('sha256');
 for (const f of files) digest.update(await readFile(f));
 const cache = `bible-memory-${digest.digest('hex').slice(0,16)}`;
-const priority = path => path.startsWith('/aids/') ? 2 : path.startsWith('/corpus/') ? 1 : 0;
-const paths = ['/', ...files.map(f => '/' + f.slice(5)).sort((a, b) => priority(a) - priority(b) || a.localeCompare(b))];
+const priority = path => path.startsWith(base + 'aids/') ? 2 : path.startsWith(base + 'corpus/') ? 1 : 0;
+const paths = [base, ...files.map(f => base + f.slice(5)).sort((a, b) => priority(a) - priority(b) || a.localeCompare(b))];
 const aidManifest = JSON.parse(await readFile('dist/aids/manifest.json', 'utf8'));
 if (aidManifest.assets.length !== 66) throw new Error('The offline build must include all 66 reading-aid books.');
 const sourceVersion = /AIDS_RELEASE\s*=\s*['"]([^'"]+)['"]/.exec(await readFile('src/aids.ts', 'utf8'))?.[1];
@@ -14,6 +16,7 @@ if (sourceVersion !== aidManifest.version) throw new Error('The app and bundled 
 await writeFile('dist/sw.js', `// Generated from this build only. No external fetches or automatic corpus migration.
 const CACHE = ${JSON.stringify(cache)};
 const FILES = ${JSON.stringify(paths)};
+const BASE = ${JSON.stringify(base)};
 const AID_VERSION = ${JSON.stringify(aidManifest.version)};
 const AID_HASH = ${JSON.stringify(aidManifest.aidHash)};
 const bounded = (promise, ms) => {
@@ -46,7 +49,7 @@ self.addEventListener('message', event => {
   if (event.data?.type !== 'OFFLINE_STATUS') return;
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    const manifest = await cache.match('/aids/manifest.json');
+    const manifest = await cache.match(BASE + 'aids/manifest.json');
     const keys = await cache.keys();
     if (manifest && keys.length >= FILES.length) event.source?.postMessage({ type: 'OFFLINE_READY', aidVersion: AID_VERSION, aidHash: AID_HASH });
   })());

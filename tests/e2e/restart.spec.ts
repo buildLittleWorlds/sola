@@ -5,7 +5,7 @@ import type { Corpus } from '../../src/types';
 const corpus = JSON.parse(readFileSync('public/corpus/index.json', 'utf8')) as Corpus;
 
 async function seed(page: Page, legacyHandled = true) {
-  await page.goto('/icon.svg');
+  await page.goto('icon.svg');
   const p = setEndpoint(initialProgress(corpus), corpus.chapters[0], 18);
   p.circuit = { position: 5, round: 2 }; p.chapters['GEN.1'].visits = 7;
   await page.evaluate(async ({ progress, handled }) => {
@@ -24,7 +24,7 @@ async function seed(page: Page, legacyHandled = true) {
 
 test('direct restart works from Genesis 5 even after the old reset was handled, and later reloads retain new progress', async ({ page }) => {
   await seed(page);
-  await page.goto('/restart.html');
+  await page.goto('restart.html');
   await expect(page.locator('#place')).toContainText('Saved place: Genesis 5');
   await expect(page.locator('#place')).toContainText('18 words');
   await page.getByRole('button', { name: 'Restart at Genesis 1' }).click();
@@ -42,7 +42,7 @@ test('direct restart works from Genesis 5 even after the old reset was handled, 
 
 test('visiting the reset page alone or the main app does not silently change the cursor', async ({ page }) => {
   await seed(page, false);
-  await page.goto('/restart.html');
+  await page.goto('restart.html');
   await expect(page.locator('#place')).toContainText('Genesis 5');
   await page.getByRole('link', { name: 'Return to Bible Memory' }).click();
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');
@@ -50,9 +50,9 @@ test('visiting the reset page alone or the main app does not silently change the
 
 test('restart waits for another app tab to close instead of racing its saved progress', async ({ page, context }) => {
   await seed(page);
-  await page.goto('/');
+  await page.goto('');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');
-  const restart = await context.newPage(); await restart.goto('/restart.html');
+  const restart = await context.newPage(); await restart.goto('restart.html');
   await restart.getByRole('button', { name: 'Restart at Genesis 1' }).click();
   await expect(restart.locator('#message')).toContainText('Close the other Bible Memory tab');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 5');

@@ -1,12 +1,13 @@
 import { createRoot } from 'react-dom/client';
 import { App } from './App';
 import { loadCorpus } from './corpus';
+import { appPath } from './paths';
 import { initialProgress, validateProgress } from './model';
 import { loadProgress } from './storage';
 import './styles.css';
 
 const root = createRoot(document.getElementById('root')!);
-root.render(<div className="boot"><img src="/icon.svg" alt="" width="52"/><h1>Bible Memory</h1><p>Opening your place…</p></div>);
+root.render(<div className="boot"><img src={appPath('/icon.svg')} alt="" width="52"/><h1>Bible Memory</h1><p>Opening your place…</p></div>);
 async function boot() {
   try {
     const [corpus, saved] = await Promise.all([loadCorpus(), loadProgress()]);
