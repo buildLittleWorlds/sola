@@ -7,7 +7,7 @@ import { loadProgress } from './storage';
 import './styles.css';
 
 const root = createRoot(document.getElementById('root')!);
-root.render(<div className="boot"><img src={appPath('/icon.svg')} alt="" width="52"/><h1>Bible Memory</h1><p>Opening your place…</p></div>);
+root.render(<div className="boot"><img src={appPath('/icon.svg')} alt="" width="52"/><h1>Sola</h1><p>Opening your place…</p></div>);
 async function boot() {
   try {
     const [corpus, saved] = await Promise.all([loadCorpus(), loadProgress()]);
@@ -19,8 +19,8 @@ async function boot() {
 }
 // One writer prevents a second tab from overwriting newer progress.
 if (navigator.locks) {
-  void navigator.locks.request('bible-memory-writer', { ifAvailable: true }, async lock => {
-    if (!lock) { root.render(<div className="boot"><h1>Already open elsewhere</h1><p>Close the other Bible Memory tab, then return to your place here.</p><button onClick={() => location.reload()}>Try again</button></div>); return; }
+  void navigator.locks.request('sola-writer', { ifAvailable: true }, async lock => {
+    if (!lock) { root.render(<div className="boot"><h1>Already open elsewhere</h1><p>Close the other Sola tab, then return to your place here.</p><button onClick={() => location.reload()}>Try again</button></div>); return; }
     await boot();
     await new Promise(() => {});
   });

@@ -204,7 +204,7 @@ test('phone installation assets and touch controls are ready', async ({ page, re
 });
 
 test('browser restart retains exact progress and circuit position', async ({ baseURL }) => {
-  const profile = await mkdtemp(join(tmpdir(), 'bible-memory-e2e-'));
+  const profile = await mkdtemp(join(tmpdir(), 'sola-e2e-'));
   let context = await chromium.launchPersistentContext(profile, { headless: true });
   try {
     let page = await context.newPage(); await page.goto(baseURL!);

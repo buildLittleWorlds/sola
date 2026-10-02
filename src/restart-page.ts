@@ -34,8 +34,8 @@ button.addEventListener('click', async () => {
   button.disabled = true; message.textContent = 'Saving your restart…';
   try {
     if (!navigator.locks) throw new Error('Please use a browser with Web Locks support to restart safely. No progress has been changed.');
-    await navigator.locks.request('bible-memory-writer', { ifAvailable: true }, async lock => {
-      if (!lock) throw new Error('Close the other Bible Memory tab or app window, then press Restart again. Your progress has not been changed.');
+    await navigator.locks.request('sola-writer', { ifAvailable: true }, async lock => {
+      if (!lock) throw new Error('Close the other Sola tab or app window, then press Restart again. Your progress has not been changed.');
       const restarted = await restartStoredProgress(corpus);
       place.textContent = `Saved place: Genesis 1. Your ${restarted.chapters['GEN.1'].wordCount}-word target is unchanged.`;
     });

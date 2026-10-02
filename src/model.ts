@@ -80,12 +80,12 @@ export function validateProgress(value: unknown, corpus: Corpus): Progress {
       showGreekTransliteration: settings.showGreekTransliteration === undefined ? true : settings.showGreekTransliteration as boolean },
     circuit: { position: circuit.position as number, round: circuit.round as number } };
 }
-export function makeBackup(progress: Progress): Backup { return { format: 'bible-memory-backup', exportedAt: new Date().toISOString(), progress }; }
+export function makeBackup(progress: Progress): Backup { return { format: 'sola-backup', exportedAt: new Date().toISOString(), progress }; }
 export function parseBackup(text: string, corpus: Corpus): Backup {
-  if (text.length > 5_000_000) throw new Error('This file is too large to be a Bible Memory backup.');
+  if (text.length > 5_000_000) throw new Error('This file is too large to be a Sola backup.');
   let parsed: unknown;
   try { parsed = JSON.parse(text); } catch { throw new Error('This file is not valid JSON. Nothing has been replaced.'); }
   const b = object(parsed);
-  if (b.format !== 'bible-memory-backup' || !date(b.exportedAt)) throw new Error('This is not a supported Bible Memory backup.');
-  return { format: 'bible-memory-backup', exportedAt: b.exportedAt, progress: validateProgress(b.progress, corpus) };
+  if (b.format !== 'sola-backup' || !date(b.exportedAt)) throw new Error('This is not a supported Sola backup.');
+  return { format: 'sola-backup', exportedAt: b.exportedAt, progress: validateProgress(b.progress, corpus) };
 }

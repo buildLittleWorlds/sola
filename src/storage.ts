@@ -1,12 +1,12 @@
 import type { Progress } from './types';
-export const DATABASE = 'bible-memory';
+export const DATABASE = 'sola';
 export function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     const request = indexedDB.open(DATABASE, 1);
     request.onupgradeneeded = () => request.result.createObjectStore('state');
     request.onsuccess = () => { request.result.onversionchange = () => request.result.close(); resolve(request.result); };
     request.onerror = () => reject(request.error || new Error('Local storage is unavailable.'));
-    request.onblocked = () => reject(new Error('Close other Bible Memory tabs and retry.'));
+    request.onblocked = () => reject(new Error('Close other Sola tabs and retry.'));
   });
 }
 export async function loadProgress(): Promise<unknown | undefined> {
