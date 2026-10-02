@@ -7,7 +7,7 @@ const corpus = JSON.parse(readFileSync('public/corpus/index.json', 'utf8')) as C
 const exodus = readFileSync('public/corpus/EXO.json', 'utf8');
 
 async function open(page: Page) {
-  await page.goto('/');
+  await page.goto('');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 1');
   await expect(page.getByRole('button', { name: 'Reveal passage', exact: true })).toBeEnabled();
 }

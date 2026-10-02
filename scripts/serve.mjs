@@ -10,13 +10,15 @@ createServer(async (req, res) => {
   try {
     if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405).end(); return; }
     const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
-    const path = resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
+    // The build is published under /sola/ (GitHub Pages); mirror that locally.
+    if (!pathname.startsWith('/sola/')) { res.writeHead(302, { Location: '/sola/' }).end(); return; }
+    const path = resolve(root, '.' + (pathname === '/sola/' ? '/index.html' : pathname.slice('/sola'.length)));
     if (!path.startsWith(root.endsWith(sep) ? root : root + sep)) { res.writeHead(403).end(); return; }
     const bytes = await readFile(path);
     res.writeHead(200, { 'Content-Type': types[extname(path)] || 'application/octet-stream', 'Cache-Control':'no-cache', 'X-Content-Type-Options':'nosniff' });
     res.end(req.method === 'HEAD' ? undefined : bytes);
   } catch { res.writeHead(404, { 'Content-Type':'text/plain' }).end('Not found'); }
-}).on('error', error => { console.error(error.code === 'EADDRINUSE' ? 'Port 4173 is already in use. If Bible Memory is already running, open http://127.0.0.1:4173. The fixed port keeps your progress in one place.' : error); process.exit(1); }).listen(4173, '127.0.0.1', () => {
-  console.log('Bible Memory is ready at http://127.0.0.1:4173 · Ctrl+C to stop.');
-  if (process.argv.includes('--open') && process.platform === 'darwin') execFile('open', ['http://127.0.0.1:4173']);
+}).on('error', error => { console.error(error.code === 'EADDRINUSE' ? 'Port 4173 is already in use. If Bible Memory is already running, open http://127.0.0.1:4173/sola/. The fixed port keeps your progress in one place.' : error); process.exit(1); }).listen(4173, '127.0.0.1', () => {
+  console.log('Bible Memory is ready at http://127.0.0.1:4173/sola/ · Ctrl+C to stop.');
+  if (process.argv.includes('--open') && process.platform === 'darwin') execFile('open', ['http://127.0.0.1:4173/sola/']);
 });

@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('/');
+  await page.goto('');
   await expect(page.getByTestId('chapter-title')).toHaveText('Genesis 1');
   await expect(page.getByRole('button', { name: 'Reveal passage' })).toBeEnabled();
 });
@@ -159,7 +159,7 @@ test('keyboard shortcuts do not interfere with search or dialog controls', async
 });
 
 test('a second tab cannot overwrite the active tab’s progress', async ({ page, context }) => {
-  const second = await context.newPage(); await second.goto('/');
+  const second = await context.newPage(); await second.goto('');
   await expect(second.getByRole('heading', { name: 'Already open elsewhere' })).toBeVisible();
   await page.getByRole('button', { name: 'Add 3 words', exact: true }).click();
   await expect(page.getByText('Progress saved on this device')).toBeVisible();
@@ -178,7 +178,7 @@ test('small screen contains the review controls without horizontal overflow', as
 });
 
 test('phone installation assets and touch controls are ready', async ({ page, request }) => {
-  const manifest = await (await request.get('/manifest.webmanifest')).json();
+  const manifest = await (await request.get('manifest.webmanifest')).json();
   expect(manifest.display).toBe('standalone');
   expect(manifest.name).toContain('Hebrew & Greek');
   for (const icon of manifest.icons.filter((i: { type: string }) => i.type === 'image/png')) {
@@ -186,7 +186,7 @@ test('phone installation assets and touch controls are ready', async ({ page, re
     expect(response.ok()).toBe(true);
     expect(response.headers()['content-type']).toContain('image/png');
   }
-  expect(await page.locator('link[rel="apple-touch-icon"]').getAttribute('href')).toBe('/icons/apple-touch-icon.png');
+  expect(await page.locator('link[rel="apple-touch-icon"]').getAttribute('href')).toBe('/sola/icons/apple-touch-icon.png');
   await page.setViewportSize({ width: 375, height: 667 });
   for (const name of ['Reveal passage', 'Next chapter', 'Add one word', 'Remove one word']) {
     const bounds = await page.getByRole('button', { name }).boundingBox();
