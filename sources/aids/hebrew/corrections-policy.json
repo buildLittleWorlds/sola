@@ -1,0 +1,18 @@
+{
+  "kind": "documented-pronunciation-policy",
+  "implementedBy": "scripts/build-hebrew-aids.mjs",
+  "purpose": "Documents build conventions and excluded source candidates; per-token reviewed changes belong in reviewed-overrides.json.",
+  "divineName": {
+    "written": "יהוה",
+    "chosenReading": ["yah", "weh"],
+    "stressed": [0],
+    "status": "convention",
+    "basis": "User explicitly selected Yahweh. The reading is not derived from qere vowel marks; stress follows the chosen classroom convention."
+  },
+  "blockedSourcePronunciations": [
+    {"tokenId": "DAN.2/4:10", "sourceRef": "Dan.2.4#10=Q(K)", "candidate": "le./'av.da.yi/kh", "reason": "Candidate does not follow the pointed qere לְעַבְדָ֖ךְ."},
+    {"tokenId": "DAN.2/41:10", "sourceRef": "Dan.2.41#09=Q(K)", "candidate": "u./mi.ne./hon", "reason": "Candidate does not follow the pointed qere וּמִנְּהֵ֣ין."},
+    {"tokenId": "DAN.2/41:5", "reason": "Adjacent qere retained in the conservative Daniel 2:41 review set."}
+  ],
+  "notHumanReviewed": "Accent-derived records identify supported source accents with corroborated pronunciation; they are not labeled human-reviewed."
+}

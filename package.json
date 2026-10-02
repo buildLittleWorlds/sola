@@ -1,0 +1,33 @@
+{
+  "name": "sola",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "tsc -b && vite build && node scripts/build-sw.mjs",
+    "start": "node scripts/serve.mjs",
+    "import:corpus": "python3 scripts/import_corpus.py",
+    "aids:build": "python3 scripts/build-greek-aids.py && node scripts/build-hebrew-aids.mjs && node scripts/hebrew-aids/finalize.mjs && node scripts/package-aids.mjs",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.0.0",
+    "havarotjs": "0.25.4",
+    "hebrew-transliteration": "2.11.0",
+    "typescript": "~5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.0"
+  }
+}

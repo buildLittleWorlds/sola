@@ -1,0 +1,18 @@
+BIBLE MEMORY READING AIDS
+
+Hebrew and Biblical Aramaic literal glosses, lemma tags and morphology: STEP Bible, https://www.STEPBible.org, from STEPBible-Data at the pinned revision in /aids/manifest.json. TAHOT and selected TAGNT data are used under CC BY 4.0. Derived changes: source-to-UXLC alignment, reference conversion, literal gloss formatting, classroom pronunciation corroboration, and explicit exceptions.
+
+Greek annotations: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/. Morphology is CC BY 4.0. Selected glosses derive from the Berean Interlinear Bible, placed in the public domain April 30, 2023. Any selected Cherith gloss must retain its source attribution (Andi Wu / Cherith Analytics, CC BY 4.0). This release does not use permission-only UBS semantic domains or restricted Hebrew lexicon definitions.
+
+Hebrew transliteration: Charles Loder, hebrew-transliteration 2.11.0 and havarotjs 0.25.4, MIT. Output is adapted to the chosen classroom convention, with independently constrained stress, uncertainty labels, and the chosen YAH-weh reading. Greek syllabification: James Tauber, greek-accentuation 1.2.0, MIT. Accents and spelling always come from the app's original Greek text.
+
+Source-aligned is not a claim of individual human review. Source and pronunciation corrections are documented in /aids/corrections.json and the generation audit. No endorsement by source publishers is implied.
+
+Complete applicable notices:
+/licenses/reading-aids/STEPBible.txt
+/licenses/reading-aids/MACULA-Greek.txt
+/licenses/reading-aids/greek-accentuation-MIT.txt
+/licenses/reading-aids/hebrew-transliteration-MIT.txt
+/licenses/reading-aids/havarotjs-MIT.txt
+
+Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/

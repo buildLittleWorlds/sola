@@ -1,0 +1,12 @@
+{
+  "article-marker-v1": {
+    "source": "macula-sblgnt",
+    "precondition": "The contextual gloss is missing or rejected as a placeholder; source class is det, source lemma is exactly ὁ, and source morphology begins T-.",
+    "explanation": "(article: the)",
+    "status": "reviewed",
+    "sourceKey": "reviewed-override",
+    "reason": "Greek definite articles often remain untranslated in English, especially before proper names. The grammar marker explains the actual source word without claiming an extra word belongs in an English sentence.",
+    "restriction": "This rule is only for verified article morphology. Other word classes require a verified occurrence-specific source gloss or are marked unavailable.",
+    "applicationLog": "sources/aids/greek-audit.json grammaticalMarkers"
+  }
+}

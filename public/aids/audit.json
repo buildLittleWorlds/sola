@@ -1,0 +1,5151 @@
+{
+  "schemaVersion": 1,
+  "corpusHash": "c81a17500cfab313737bc0ffe3c4338f03cd947a9c2961fe33927ab944d43f37",
+  "words": 443243,
+  "totals": {
+    "gloss:source-aligned": 433508,
+    "pronunciation:accent-derived": 218060,
+    "pronunciation:joined": 41312,
+    "pronunciation:pronunciation-unconfirmed": 17126,
+    "gloss:unavailable": 4483,
+    "pronunciation:stress-unconfirmed": 13440,
+    "pronunciation:unavailable": 8735,
+    "pronunciation:convention": 6828,
+    "pronunciation:reviewed": 1,
+    "pronunciation:written-accent": 137741,
+    "gloss:reviewed": 5252
+  },
+  "byBook": {
+    "GEN": {
+      "name": "Genesis",
+      "words": 20614,
+      "gloss:source-aligned": 20473,
+      "pronunciation:accent-derived": 15276,
+      "pronunciation:joined": 2855,
+      "pronunciation:pronunciation-unconfirmed": 1383,
+      "gloss:unavailable": 141,
+      "pronunciation:stress-unconfirmed": 450,
+      "pronunciation:unavailable": 484,
+      "pronunciation:convention": 165,
+      "pronunciation:reviewed": 1
+    },
+    "EXO": {
+      "name": "Exodus",
+      "words": 16714,
+      "gloss:source-aligned": 16505,
+      "pronunciation:accent-derived": 12140,
+      "pronunciation:pronunciation-unconfirmed": 912,
+      "pronunciation:unavailable": 373,
+      "pronunciation:joined": 2378,
+      "gloss:unavailable": 209,
+      "pronunciation:stress-unconfirmed": 513,
+      "pronunciation:convention": 398
+    },
+    "LEV": {
+      "name": "Leviticus",
+      "words": 11950,
+      "gloss:source-aligned": 11827,
+      "pronunciation:accent-derived": 8519,
+      "pronunciation:joined": 1810,
+      "pronunciation:pronunciation-unconfirmed": 675,
+      "pronunciation:convention": 311,
+      "pronunciation:stress-unconfirmed": 339,
+      "pronunciation:unavailable": 296,
+      "gloss:unavailable": 123
+    },
+    "NUM": {
+      "name": "Numbers",
+      "words": 16412,
+      "gloss:source-aligned": 16236,
+      "pronunciation:pronunciation-unconfirmed": 821,
+      "pronunciation:convention": 396,
+      "pronunciation:joined": 2229,
+      "pronunciation:accent-derived": 12156,
+      "pronunciation:stress-unconfirmed": 514,
+      "pronunciation:unavailable": 296,
+      "gloss:unavailable": 176
+    },
+    "DEU": {
+      "name": "Deuteronomy",
+      "words": 14295,
+      "gloss:source-aligned": 14102,
+      "pronunciation:accent-derived": 10291,
+      "pronunciation:joined": 1864,
+      "pronunciation:stress-unconfirmed": 519,
+      "pronunciation:pronunciation-unconfirmed": 651,
+      "pronunciation:convention": 550,
+      "pronunciation:unavailable": 420,
+      "gloss:unavailable": 193
+    },
+    "JOS": {
+      "name": "Joshua",
+      "words": 10051,
+      "gloss:source-aligned": 9915,
+      "pronunciation:pronunciation-unconfirmed": 479,
+      "pronunciation:accent-derived": 7158,
+      "pronunciation:convention": 224,
+      "pronunciation:joined": 1573,
+      "pronunciation:stress-unconfirmed": 324,
+      "pronunciation:unavailable": 293,
+      "gloss:unavailable": 136
+    },
+    "JDG": {
+      "name": "Judges",
+      "words": 9885,
+      "gloss:source-aligned": 9774,
+      "pronunciation:pronunciation-unconfirmed": 495,
+      "pronunciation:accent-derived": 7141,
+      "pronunciation:convention": 175,
+      "pronunciation:joined": 1421,
+      "pronunciation:unavailable": 353,
+      "pronunciation:stress-unconfirmed": 300,
+      "gloss:unavailable": 111
+    },
+    "RUT": {
+      "name": "Ruth",
+      "words": 1295,
+      "gloss:source-aligned": 1289,
+      "pronunciation:pronunciation-unconfirmed": 61,
+      "pronunciation:accent-derived": 977,
+      "pronunciation:unavailable": 31,
+      "pronunciation:stress-unconfirmed": 37,
+      "pronunciation:joined": 171,
+      "pronunciation:convention": 18,
+      "gloss:unavailable": 6
+    },
+    "1SA": {
+      "name": "1 Samuel",
+      "words": 13262,
+      "gloss:source-aligned": 13072,
+      "pronunciation:pronunciation-unconfirmed": 733,
+      "pronunciation:accent-derived": 9662,
+      "pronunciation:joined": 1867,
+      "pronunciation:stress-unconfirmed": 360,
+      "pronunciation:convention": 320,
+      "pronunciation:unavailable": 320,
+      "gloss:unavailable": 190
+    },
+    "2SA": {
+      "name": "2 Samuel",
+      "words": 11039,
+      "gloss:source-aligned": 10843,
+      "pronunciation:pronunciation-unconfirmed": 641,
+      "pronunciation:accent-derived": 8004,
+      "pronunciation:unavailable": 282,
+      "pronunciation:joined": 1684,
+      "pronunciation:stress-unconfirmed": 275,
+      "pronunciation:convention": 153,
+      "gloss:unavailable": 196
+    },
+    "1KI": {
+      "name": "1 Kings",
+      "words": 13140,
+      "gloss:source-aligned": 12992,
+      "pronunciation:accent-derived": 9606,
+      "pronunciation:pronunciation-unconfirmed": 701,
+      "pronunciation:joined": 1895,
+      "pronunciation:stress-unconfirmed": 397,
+      "pronunciation:unavailable": 284,
+      "pronunciation:convention": 257,
+      "gloss:unavailable": 148
+    },
+    "2KI": {
+      "name": "2 Kings",
+      "words": 12282,
+      "gloss:source-aligned": 12128,
+      "pronunciation:accent-derived": 8700,
+      "pronunciation:joined": 1945,
+      "gloss:unavailable": 154,
+      "pronunciation:pronunciation-unconfirmed": 715,
+      "pronunciation:convention": 277,
+      "pronunciation:stress-unconfirmed": 379,
+      "pronunciation:unavailable": 266
+    },
+    "1CH": {
+      "name": "1 Chronicles",
+      "words": 10747,
+      "gloss:source-aligned": 10459,
+      "pronunciation:accent-derived": 7814,
+      "pronunciation:pronunciation-unconfirmed": 730,
+      "gloss:unavailable": 288,
+      "pronunciation:joined": 1457,
+      "pronunciation:unavailable": 323,
+      "pronunciation:stress-unconfirmed": 248,
+      "pronunciation:convention": 175
+    },
+    "2CH": {
+      "name": "2 Chronicles",
+      "words": 13311,
+      "gloss:source-aligned": 13054,
+      "pronunciation:accent-derived": 9272,
+      "pronunciation:joined": 1882,
+      "pronunciation:convention": 384,
+      "pronunciation:pronunciation-unconfirmed": 892,
+      "pronunciation:unavailable": 440,
+      "pronunciation:stress-unconfirmed": 441,
+      "gloss:unavailable": 257
+    },
+    "EZR": {
+      "name": "Ezra",
+      "words": 3753,
+      "gloss:source-aligned": 3591,
+      "pronunciation:accent-derived": 2729,
+      "pronunciation:joined": 422,
+      "pronunciation:convention": 37,
+      "pronunciation:stress-unconfirmed": 135,
+      "gloss:unavailable": 162,
+      "pronunciation:unavailable": 124,
+      "pronunciation:pronunciation-unconfirmed": 306
+    },
+    "NEH": {
+      "name": "Nehemiah",
+      "words": 5313,
+      "gloss:source-aligned": 5162,
+      "pronunciation:accent-derived": 3867,
+      "pronunciation:joined": 685,
+      "pronunciation:pronunciation-unconfirmed": 397,
+      "gloss:unavailable": 151,
+      "pronunciation:unavailable": 170,
+      "pronunciation:stress-unconfirmed": 177,
+      "pronunciation:convention": 17
+    },
+    "EST": {
+      "name": "Esther",
+      "words": 3045,
+      "gloss:source-aligned": 3016,
+      "pronunciation:pronunciation-unconfirmed": 220,
+      "pronunciation:accent-derived": 2178,
+      "pronunciation:joined": 444,
+      "pronunciation:stress-unconfirmed": 113,
+      "pronunciation:unavailable": 90,
+      "gloss:unavailable": 29
+    },
+    "JOB": {
+      "name": "Job",
+      "words": 8343,
+      "gloss:source-aligned": 8277,
+      "pronunciation:accent-derived": 5114,
+      "pronunciation:joined": 1157,
+      "pronunciation:unavailable": 257,
+      "pronunciation:pronunciation-unconfirmed": 541,
+      "pronunciation:stress-unconfirmed": 1242,
+      "gloss:unavailable": 66,
+      "pronunciation:convention": 32
+    },
+    "PSA": {
+      "name": "Psalms",
+      "words": 19586,
+      "gloss:source-aligned": 19510,
+      "pronunciation:pronunciation-unconfirmed": 1117,
+      "pronunciation:accent-derived": 11290,
+      "pronunciation:stress-unconfirmed": 3495,
+      "pronunciation:convention": 695,
+      "pronunciation:joined": 2262,
+      "pronunciation:unavailable": 727,
+      "gloss:unavailable": 76
+    },
+    "PRO": {
+      "name": "Proverbs",
+      "words": 6915,
+      "gloss:source-aligned": 6847,
+      "pronunciation:stress-unconfirmed": 1175,
+      "pronunciation:accent-derived": 4076,
+      "pronunciation:joined": 844,
+      "pronunciation:pronunciation-unconfirmed": 439,
+      "pronunciation:convention": 87,
+      "gloss:unavailable": 68,
+      "pronunciation:unavailable": 294
+    },
+    "ECC": {
+      "name": "Ecclesiastes",
+      "words": 2987,
+      "gloss:source-aligned": 2967,
+      "pronunciation:accent-derived": 2333,
+      "pronunciation:joined": 410,
+      "gloss:unavailable": 20,
+      "pronunciation:unavailable": 80,
+      "pronunciation:stress-unconfirmed": 57,
+      "pronunciation:pronunciation-unconfirmed": 107
+    },
+    "SNG": {
+      "name": "Song of Songs",
+      "words": 1250,
+      "gloss:source-aligned": 1221,
+      "pronunciation:accent-derived": 986,
+      "pronunciation:joined": 109,
+      "pronunciation:pronunciation-unconfirmed": 63,
+      "gloss:unavailable": 29,
+      "pronunciation:unavailable": 72,
+      "pronunciation:stress-unconfirmed": 20
+    },
+    "ISA": {
+      "name": "Isaiah",
+      "words": 16932,
+      "gloss:source-aligned": 16672,
+      "pronunciation:accent-derived": 12864,
+      "pronunciation:pronunciation-unconfirmed": 909,
+      "pronunciation:joined": 1783,
+      "gloss:unavailable": 260,
+      "pronunciation:unavailable": 641,
+      "pronunciation:convention": 450,
+      "pronunciation:stress-unconfirmed": 285
+    },
+    "JER": {
+      "name": "Jeremiah",
+      "words": 21836,
+      "gloss:source-aligned": 21443,
+      "pronunciation:accent-derived": 15498,
+      "pronunciation:joined": 3391,
+      "pronunciation:convention": 726,
+      "pronunciation:pronunciation-unconfirmed": 1006,
+      "gloss:unavailable": 393,
+      "pronunciation:unavailable": 601,
+      "pronunciation:stress-unconfirmed": 614
+    },
+    "LAM": {
+      "name": "Lamentations",
+      "words": 1540,
+      "gloss:source-aligned": 1443,
+      "pronunciation:accent-derived": 1130,
+      "pronunciation:unavailable": 62,
+      "gloss:unavailable": 97,
+      "pronunciation:pronunciation-unconfirmed": 143,
+      "pronunciation:joined": 157,
+      "pronunciation:stress-unconfirmed": 16,
+      "pronunciation:convention": 32
+    },
+    "EZK": {
+      "name": "Ezekiel",
+      "words": 18731,
+      "gloss:source-aligned": 18499,
+      "pronunciation:pronunciation-unconfirmed": 930,
+      "pronunciation:accent-derived": 13974,
+      "pronunciation:joined": 2285,
+      "pronunciation:unavailable": 601,
+      "pronunciation:stress-unconfirmed": 507,
+      "pronunciation:convention": 434,
+      "gloss:unavailable": 232
+    },
+    "DAN": {
+      "name": "Daniel",
+      "words": 5919,
+      "gloss:source-aligned": 5858,
+      "pronunciation:accent-derived": 4620,
+      "pronunciation:pronunciation-unconfirmed": 402,
+      "pronunciation:joined": 618,
+      "gloss:unavailable": 61,
+      "pronunciation:unavailable": 78,
+      "pronunciation:stress-unconfirmed": 193,
+      "pronunciation:convention": 8
+    },
+    "HOS": {
+      "name": "Hosea",
+      "words": 2381,
+      "gloss:source-aligned": 2360,
+      "pronunciation:joined": 268,
+      "pronunciation:convention": 46,
+      "pronunciation:accent-derived": 1878,
+      "gloss:unavailable": 21,
+      "pronunciation:pronunciation-unconfirmed": 102,
+      "pronunciation:stress-unconfirmed": 40,
+      "pronunciation:unavailable": 47
+    },
+    "JOL": {
+      "name": "Joel",
+      "words": 957,
+      "gloss:source-aligned": 949,
+      "pronunciation:joined": 101,
+      "pronunciation:convention": 33,
+      "pronunciation:accent-derived": 710,
+      "pronunciation:stress-unconfirmed": 23,
+      "pronunciation:unavailable": 46,
+      "pronunciation:pronunciation-unconfirmed": 44,
+      "gloss:unavailable": 8
+    },
+    "AMO": {
+      "name": "Amos",
+      "words": 2042,
+      "gloss:source-aligned": 2010,
+      "pronunciation:accent-derived": 1498,
+      "pronunciation:joined": 269,
+      "pronunciation:stress-unconfirmed": 53,
+      "pronunciation:convention": 81,
+      "pronunciation:unavailable": 60,
+      "gloss:unavailable": 32,
+      "pronunciation:pronunciation-unconfirmed": 81
+    },
+    "OBA": {
+      "name": "Obadiah",
+      "words": 291,
+      "gloss:source-aligned": 289,
+      "pronunciation:accent-derived": 205,
+      "pronunciation:pronunciation-unconfirmed": 15,
+      "pronunciation:joined": 41,
+      "pronunciation:stress-unconfirmed": 9,
+      "pronunciation:convention": 7,
+      "pronunciation:unavailable": 14,
+      "gloss:unavailable": 2
+    },
+    "JON": {
+      "name": "Jonah",
+      "words": 688,
+      "gloss:source-aligned": 683,
+      "pronunciation:pronunciation-unconfirmed": 36,
+      "pronunciation:joined": 99,
+      "pronunciation:convention": 26,
+      "pronunciation:accent-derived": 495,
+      "pronunciation:stress-unconfirmed": 17,
+      "pronunciation:unavailable": 15,
+      "gloss:unavailable": 5
+    },
+    "MIC": {
+      "name": "Micah",
+      "words": 1396,
+      "gloss:source-aligned": 1371,
+      "pronunciation:joined": 146,
+      "pronunciation:convention": 40,
+      "pronunciation:accent-derived": 1064,
+      "pronunciation:stress-unconfirmed": 27,
+      "gloss:unavailable": 25,
+      "pronunciation:unavailable": 47,
+      "pronunciation:pronunciation-unconfirmed": 72
+    },
+    "NAM": {
+      "name": "Nahum",
+      "words": 558,
+      "gloss:source-aligned": 555,
+      "pronunciation:accent-derived": 455,
+      "pronunciation:pronunciation-unconfirmed": 35,
+      "pronunciation:unavailable": 10,
+      "pronunciation:convention": 13,
+      "pronunciation:joined": 38,
+      "pronunciation:stress-unconfirmed": 7,
+      "gloss:unavailable": 3
+    },
+    "HAB": {
+      "name": "Habakkuk",
+      "words": 671,
+      "gloss:unavailable": 11,
+      "pronunciation:pronunciation-unconfirmed": 37,
+      "gloss:source-aligned": 660,
+      "pronunciation:accent-derived": 520,
+      "pronunciation:joined": 62,
+      "pronunciation:convention": 13,
+      "pronunciation:unavailable": 31,
+      "pronunciation:stress-unconfirmed": 8
+    },
+    "ZEP": {
+      "name": "Zephaniah",
+      "words": 767,
+      "gloss:source-aligned": 757,
+      "pronunciation:joined": 103,
+      "pronunciation:convention": 34,
+      "pronunciation:accent-derived": 555,
+      "gloss:unavailable": 10,
+      "pronunciation:unavailable": 34,
+      "pronunciation:pronunciation-unconfirmed": 28,
+      "pronunciation:stress-unconfirmed": 13
+    },
+    "HAG": {
+      "name": "Haggai",
+      "words": 600,
+      "gloss:source-aligned": 593,
+      "pronunciation:accent-derived": 411,
+      "pronunciation:joined": 108,
+      "pronunciation:convention": 35,
+      "gloss:unavailable": 7,
+      "pronunciation:pronunciation-unconfirmed": 18,
+      "pronunciation:stress-unconfirmed": 12,
+      "pronunciation:unavailable": 16
+    },
+    "ZEC": {
+      "name": "Zechariah",
+      "words": 3128,
+      "gloss:source-aligned": 3068,
+      "pronunciation:accent-derived": 2231,
+      "pronunciation:joined": 386,
+      "pronunciation:convention": 133,
+      "pronunciation:stress-unconfirmed": 85,
+      "pronunciation:unavailable": 127,
+      "pronunciation:pronunciation-unconfirmed": 166,
+      "gloss:unavailable": 60
+    },
+    "MAL": {
+      "name": "Malachi",
+      "words": 876,
+      "gloss:source-aligned": 866,
+      "pronunciation:accent-derived": 663,
+      "pronunciation:joined": 93,
+      "pronunciation:convention": 46,
+      "pronunciation:pronunciation-unconfirmed": 23,
+      "pronunciation:unavailable": 30,
+      "pronunciation:stress-unconfirmed": 21,
+      "gloss:unavailable": 10
+    },
+    "MAT": {
+      "name": "Matthew",
+      "words": 18329,
+      "gloss:source-aligned": 17638,
+      "pronunciation:written-accent": 18329,
+      "gloss:reviewed": 648,
+      "gloss:unavailable": 43
+    },
+    "MRK": {
+      "name": "Mark",
+      "words": 11286,
+      "gloss:source-aligned": 10861,
+      "pronunciation:written-accent": 11286,
+      "gloss:reviewed": 381,
+      "gloss:unavailable": 44
+    },
+    "LUK": {
+      "name": "Luke",
+      "words": 19446,
+      "gloss:source-aligned": 18730,
+      "pronunciation:written-accent": 19446,
+      "gloss:reviewed": 670,
+      "gloss:unavailable": 46
+    },
+    "JHN": {
+      "name": "John",
+      "words": 15625,
+      "gloss:source-aligned": 14974,
+      "pronunciation:written-accent": 15625,
+      "gloss:reviewed": 622,
+      "gloss:unavailable": 29
+    },
+    "ACT": {
+      "name": "Acts",
+      "words": 18412,
+      "gloss:source-aligned": 17590,
+      "pronunciation:written-accent": 18412,
+      "gloss:reviewed": 791,
+      "gloss:unavailable": 31
+    },
+    "ROM": {
+      "name": "Romans",
+      "words": 7055,
+      "gloss:source-aligned": 6684,
+      "pronunciation:written-accent": 7055,
+      "gloss:reviewed": 358,
+      "gloss:unavailable": 13
+    },
+    "1CO": {
+      "name": "1 Corinthians",
+      "words": 6812,
+      "gloss:source-aligned": 6599,
+      "pronunciation:written-accent": 6812,
+      "gloss:reviewed": 201,
+      "gloss:unavailable": 12
+    },
+    "2CO": {
+      "name": "2 Corinthians",
+      "words": 4473,
+      "gloss:source-aligned": 4296,
+      "pronunciation:written-accent": 4473,
+      "gloss:reviewed": 173,
+      "gloss:unavailable": 4
+    },
+    "GAL": {
+      "name": "Galatians",
+      "words": 2226,
+      "gloss:source-aligned": 2148,
+      "pronunciation:written-accent": 2226,
+      "gloss:reviewed": 75,
+      "gloss:unavailable": 3
+    },
+    "EPH": {
+      "name": "Ephesians",
+      "words": 2416,
+      "gloss:source-aligned": 2292,
+      "pronunciation:written-accent": 2416,
+      "gloss:reviewed": 120,
+      "gloss:unavailable": 4
+    },
+    "PHP": {
+      "name": "Philippians",
+      "words": 1626,
+      "gloss:source-aligned": 1564,
+      "pronunciation:written-accent": 1626,
+      "gloss:reviewed": 62
+    },
+    "COL": {
+      "name": "Colossians",
+      "words": 1580,
+      "gloss:source-aligned": 1496,
+      "pronunciation:written-accent": 1580,
+      "gloss:reviewed": 80,
+      "gloss:unavailable": 4
+    },
+    "1TH": {
+      "name": "1 Thessalonians",
+      "words": 1473,
+      "gloss:source-aligned": 1404,
+      "pronunciation:written-accent": 1473,
+      "gloss:reviewed": 68,
+      "gloss:unavailable": 1
+    },
+    "2TH": {
+      "name": "2 Thessalonians",
+      "words": 820,
+      "gloss:source-aligned": 781,
+      "pronunciation:written-accent": 820,
+      "gloss:reviewed": 36,
+      "gloss:unavailable": 3
+    },
+    "1TI": {
+      "name": "1 Timothy",
+      "words": 1591,
+      "gloss:source-aligned": 1553,
+      "pronunciation:written-accent": 1591,
+      "gloss:reviewed": 36,
+      "gloss:unavailable": 2
+    },
+    "2TI": {
+      "name": "2 Timothy",
+      "words": 1235,
+      "gloss:source-aligned": 1180,
+      "pronunciation:written-accent": 1235,
+      "gloss:reviewed": 54,
+      "gloss:unavailable": 1
+    },
+    "TIT": {
+      "name": "Titus",
+      "words": 659,
+      "gloss:source-aligned": 637,
+      "pronunciation:written-accent": 659,
+      "gloss:reviewed": 21,
+      "gloss:unavailable": 1
+    },
+    "PHM": {
+      "name": "Philemon",
+      "words": 334,
+      "gloss:source-aligned": 325,
+      "pronunciation:written-accent": 334,
+      "gloss:reviewed": 9
+    },
+    "HEB": {
+      "name": "Hebrews",
+      "words": 4935,
+      "gloss:source-aligned": 4767,
+      "pronunciation:written-accent": 4935,
+      "gloss:reviewed": 160,
+      "gloss:unavailable": 8
+    },
+    "JAS": {
+      "name": "James",
+      "words": 1739,
+      "gloss:source-aligned": 1675,
+      "pronunciation:written-accent": 1739,
+      "gloss:reviewed": 61,
+      "gloss:unavailable": 3
+    },
+    "1PE": {
+      "name": "1 Peter",
+      "words": 1678,
+      "gloss:source-aligned": 1620,
+      "pronunciation:written-accent": 1678,
+      "gloss:reviewed": 57,
+      "gloss:unavailable": 1
+    },
+    "2PE": {
+      "name": "2 Peter",
+      "words": 1098,
+      "gloss:source-aligned": 1056,
+      "pronunciation:written-accent": 1098,
+      "gloss:reviewed": 40,
+      "gloss:unavailable": 2
+    },
+    "1JN": {
+      "name": "1 John",
+      "words": 2137,
+      "gloss:source-aligned": 2019,
+      "pronunciation:written-accent": 2137,
+      "gloss:reviewed": 116,
+      "gloss:unavailable": 2
+    },
+    "2JN": {
+      "name": "2 John",
+      "words": 245,
+      "gloss:source-aligned": 237,
+      "pronunciation:written-accent": 245,
+      "gloss:reviewed": 7,
+      "gloss:unavailable": 1
+    },
+    "3JN": {
+      "name": "3 John",
+      "words": 219,
+      "gloss:source-aligned": 211,
+      "pronunciation:written-accent": 219,
+      "gloss:reviewed": 8
+    },
+    "JUD": {
+      "name": "Jude",
+      "words": 459,
+      "gloss:source-aligned": 439,
+      "pronunciation:written-accent": 459,
+      "gloss:reviewed": 16,
+      "gloss:unavailable": 4
+    },
+    "REV": {
+      "name": "Revelation",
+      "words": 9833,
+      "gloss:source-aligned": 9396,
+      "pronunciation:written-accent": 9833,
+      "gloss:reviewed": 382,
+      "gloss:unavailable": 55
+    }
+  },
+  "interpretation": "Source-aligned glosses are imported scholarly annotations, not individual human verification. Pronunciation and stress are assessed separately. Unresolved cases are displayed explicitly.",
+  "hebrew": {
+    "schemaVersion": 1,
+    "corpusHash": "c81a17500cfab313737bc0ffe3c4338f03cd947a9c2961fe33927ab944d43f37",
+    "stepCommit": "b99716b0cddb648ddb95cc786a197180f2f97d48",
+    "sourceRows": 305652,
+    "excludedTypes": {
+      "X": 152,
+      "R": 27
+    },
+    "totals": {
+      "tokens": 305502,
+      "aligned": 301336,
+      "unmatched": 4166
+    },
+    "glossStatus": {
+      "source-aligned": 301336,
+      "unavailable": 4166
+    },
+    "pronunciationStatus": {
+      "accent-derived": 218060,
+      "joined": 41312,
+      "pronunciation-unconfirmed": 17126,
+      "stress-unconfirmed": 13440,
+      "unavailable": 8735,
+      "convention": 6828,
+      "reviewed": 1
+    },
+    "reasons": {
+      "pronunciation-disagreement": 13801,
+      "no-source-match": 3294,
+      "unsupported-or-ambiguous-stress": 13440,
+      "syllabification-failed": 8611,
+      "vowelless-generated-syllable": 124,
+      "syllable-boundary-mismatch": 28,
+      "known-source-reading-conflict": 3
+    },
+    "books": [
+      {
+        "bookId": "GEN",
+        "tokens": 20614,
+        "aligned": 20473,
+        "unmatched": 141,
+        "glossStatus": {
+          "source-aligned": 20473,
+          "unavailable": 141
+        },
+        "pronunciationStatus": {
+          "accent-derived": 15276,
+          "joined": 2855,
+          "pronunciation-unconfirmed": 1383,
+          "stress-unconfirmed": 450,
+          "unavailable": 484,
+          "convention": 165,
+          "reviewed": 1
+        }
+      },
+      {
+        "bookId": "EXO",
+        "tokens": 16714,
+        "aligned": 16505,
+        "unmatched": 209,
+        "glossStatus": {
+          "source-aligned": 16505,
+          "unavailable": 209
+        },
+        "pronunciationStatus": {
+          "accent-derived": 12140,
+          "pronunciation-unconfirmed": 912,
+          "unavailable": 373,
+          "joined": 2378,
+          "stress-unconfirmed": 513,
+          "convention": 398
+        }
+      },
+      {
+        "bookId": "LEV",
+        "tokens": 11950,
+        "aligned": 11827,
+        "unmatched": 123,
+        "glossStatus": {
+          "source-aligned": 11827,
+          "unavailable": 123
+        },
+        "pronunciationStatus": {
+          "accent-derived": 8519,
+          "joined": 1810,
+          "pronunciation-unconfirmed": 675,
+          "convention": 311,
+          "stress-unconfirmed": 339,
+          "unavailable": 296
+        }
+      },
+      {
+        "bookId": "NUM",
+        "tokens": 16412,
+        "aligned": 16236,
+        "unmatched": 176,
+        "glossStatus": {
+          "source-aligned": 16236,
+          "unavailable": 176
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 821,
+          "convention": 396,
+          "joined": 2229,
+          "accent-derived": 12156,
+          "stress-unconfirmed": 514,
+          "unavailable": 296
+        }
+      },
+      {
+        "bookId": "DEU",
+        "tokens": 14295,
+        "aligned": 14102,
+        "unmatched": 193,
+        "glossStatus": {
+          "source-aligned": 14102,
+          "unavailable": 193
+        },
+        "pronunciationStatus": {
+          "accent-derived": 10291,
+          "joined": 1864,
+          "stress-unconfirmed": 519,
+          "pronunciation-unconfirmed": 651,
+          "convention": 550,
+          "unavailable": 420
+        }
+      },
+      {
+        "bookId": "JOS",
+        "tokens": 10051,
+        "aligned": 9915,
+        "unmatched": 136,
+        "glossStatus": {
+          "source-aligned": 9915,
+          "unavailable": 136
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 479,
+          "accent-derived": 7158,
+          "convention": 224,
+          "joined": 1573,
+          "stress-unconfirmed": 324,
+          "unavailable": 293
+        }
+      },
+      {
+        "bookId": "JDG",
+        "tokens": 9885,
+        "aligned": 9774,
+        "unmatched": 111,
+        "glossStatus": {
+          "source-aligned": 9774,
+          "unavailable": 111
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 495,
+          "accent-derived": 7141,
+          "convention": 175,
+          "joined": 1421,
+          "unavailable": 353,
+          "stress-unconfirmed": 300
+        }
+      },
+      {
+        "bookId": "RUT",
+        "tokens": 1295,
+        "aligned": 1289,
+        "unmatched": 6,
+        "glossStatus": {
+          "source-aligned": 1289,
+          "unavailable": 6
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 61,
+          "accent-derived": 977,
+          "unavailable": 31,
+          "stress-unconfirmed": 37,
+          "joined": 171,
+          "convention": 18
+        }
+      },
+      {
+        "bookId": "1SA",
+        "tokens": 13262,
+        "aligned": 13072,
+        "unmatched": 190,
+        "glossStatus": {
+          "source-aligned": 13072,
+          "unavailable": 190
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 733,
+          "accent-derived": 9662,
+          "joined": 1867,
+          "stress-unconfirmed": 360,
+          "convention": 320,
+          "unavailable": 320
+        }
+      },
+      {
+        "bookId": "2SA",
+        "tokens": 11039,
+        "aligned": 10843,
+        "unmatched": 196,
+        "glossStatus": {
+          "source-aligned": 10843,
+          "unavailable": 196
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 641,
+          "accent-derived": 8004,
+          "unavailable": 282,
+          "joined": 1684,
+          "stress-unconfirmed": 275,
+          "convention": 153
+        }
+      },
+      {
+        "bookId": "1KI",
+        "tokens": 13140,
+        "aligned": 12992,
+        "unmatched": 148,
+        "glossStatus": {
+          "source-aligned": 12992,
+          "unavailable": 148
+        },
+        "pronunciationStatus": {
+          "accent-derived": 9606,
+          "pronunciation-unconfirmed": 701,
+          "joined": 1895,
+          "stress-unconfirmed": 397,
+          "unavailable": 284,
+          "convention": 257
+        }
+      },
+      {
+        "bookId": "2KI",
+        "tokens": 12282,
+        "aligned": 12128,
+        "unmatched": 154,
+        "glossStatus": {
+          "source-aligned": 12128,
+          "unavailable": 154
+        },
+        "pronunciationStatus": {
+          "accent-derived": 8700,
+          "joined": 1945,
+          "pronunciation-unconfirmed": 715,
+          "convention": 277,
+          "stress-unconfirmed": 379,
+          "unavailable": 266
+        }
+      },
+      {
+        "bookId": "1CH",
+        "tokens": 10747,
+        "aligned": 10459,
+        "unmatched": 288,
+        "glossStatus": {
+          "source-aligned": 10459,
+          "unavailable": 288
+        },
+        "pronunciationStatus": {
+          "accent-derived": 7814,
+          "pronunciation-unconfirmed": 730,
+          "joined": 1457,
+          "unavailable": 323,
+          "stress-unconfirmed": 248,
+          "convention": 175
+        }
+      },
+      {
+        "bookId": "2CH",
+        "tokens": 13311,
+        "aligned": 13054,
+        "unmatched": 257,
+        "glossStatus": {
+          "source-aligned": 13054,
+          "unavailable": 257
+        },
+        "pronunciationStatus": {
+          "accent-derived": 9272,
+          "joined": 1882,
+          "convention": 384,
+          "pronunciation-unconfirmed": 892,
+          "unavailable": 440,
+          "stress-unconfirmed": 441
+        }
+      },
+      {
+        "bookId": "EZR",
+        "tokens": 3753,
+        "aligned": 3591,
+        "unmatched": 162,
+        "glossStatus": {
+          "source-aligned": 3591,
+          "unavailable": 162
+        },
+        "pronunciationStatus": {
+          "accent-derived": 2729,
+          "joined": 422,
+          "convention": 37,
+          "stress-unconfirmed": 135,
+          "unavailable": 124,
+          "pronunciation-unconfirmed": 306
+        }
+      },
+      {
+        "bookId": "NEH",
+        "tokens": 5313,
+        "aligned": 5162,
+        "unmatched": 151,
+        "glossStatus": {
+          "source-aligned": 5162,
+          "unavailable": 151
+        },
+        "pronunciationStatus": {
+          "accent-derived": 3867,
+          "joined": 685,
+          "pronunciation-unconfirmed": 397,
+          "unavailable": 170,
+          "stress-unconfirmed": 177,
+          "convention": 17
+        }
+      },
+      {
+        "bookId": "EST",
+        "tokens": 3045,
+        "aligned": 3016,
+        "unmatched": 29,
+        "glossStatus": {
+          "source-aligned": 3016,
+          "unavailable": 29
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 220,
+          "accent-derived": 2178,
+          "joined": 444,
+          "stress-unconfirmed": 113,
+          "unavailable": 90
+        }
+      },
+      {
+        "bookId": "JOB",
+        "tokens": 8343,
+        "aligned": 8277,
+        "unmatched": 66,
+        "glossStatus": {
+          "source-aligned": 8277,
+          "unavailable": 66
+        },
+        "pronunciationStatus": {
+          "accent-derived": 5114,
+          "joined": 1157,
+          "unavailable": 257,
+          "pronunciation-unconfirmed": 541,
+          "stress-unconfirmed": 1242,
+          "convention": 32
+        }
+      },
+      {
+        "bookId": "PSA",
+        "tokens": 19586,
+        "aligned": 19510,
+        "unmatched": 76,
+        "glossStatus": {
+          "source-aligned": 19510,
+          "unavailable": 76
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 1117,
+          "accent-derived": 11290,
+          "stress-unconfirmed": 3495,
+          "convention": 695,
+          "joined": 2262,
+          "unavailable": 727
+        }
+      },
+      {
+        "bookId": "PRO",
+        "tokens": 6915,
+        "aligned": 6847,
+        "unmatched": 68,
+        "glossStatus": {
+          "source-aligned": 6847,
+          "unavailable": 68
+        },
+        "pronunciationStatus": {
+          "stress-unconfirmed": 1175,
+          "accent-derived": 4076,
+          "joined": 844,
+          "pronunciation-unconfirmed": 439,
+          "convention": 87,
+          "unavailable": 294
+        }
+      },
+      {
+        "bookId": "ECC",
+        "tokens": 2987,
+        "aligned": 2967,
+        "unmatched": 20,
+        "glossStatus": {
+          "source-aligned": 2967,
+          "unavailable": 20
+        },
+        "pronunciationStatus": {
+          "accent-derived": 2333,
+          "joined": 410,
+          "unavailable": 80,
+          "stress-unconfirmed": 57,
+          "pronunciation-unconfirmed": 107
+        }
+      },
+      {
+        "bookId": "SNG",
+        "tokens": 1250,
+        "aligned": 1221,
+        "unmatched": 29,
+        "glossStatus": {
+          "source-aligned": 1221,
+          "unavailable": 29
+        },
+        "pronunciationStatus": {
+          "accent-derived": 986,
+          "joined": 109,
+          "pronunciation-unconfirmed": 63,
+          "unavailable": 72,
+          "stress-unconfirmed": 20
+        }
+      },
+      {
+        "bookId": "ISA",
+        "tokens": 16932,
+        "aligned": 16672,
+        "unmatched": 260,
+        "glossStatus": {
+          "source-aligned": 16672,
+          "unavailable": 260
+        },
+        "pronunciationStatus": {
+          "accent-derived": 12864,
+          "pronunciation-unconfirmed": 909,
+          "joined": 1783,
+          "unavailable": 641,
+          "convention": 450,
+          "stress-unconfirmed": 285
+        }
+      },
+      {
+        "bookId": "JER",
+        "tokens": 21836,
+        "aligned": 21443,
+        "unmatched": 393,
+        "glossStatus": {
+          "source-aligned": 21443,
+          "unavailable": 393
+        },
+        "pronunciationStatus": {
+          "accent-derived": 15498,
+          "joined": 3391,
+          "convention": 726,
+          "pronunciation-unconfirmed": 1006,
+          "unavailable": 601,
+          "stress-unconfirmed": 614
+        }
+      },
+      {
+        "bookId": "LAM",
+        "tokens": 1540,
+        "aligned": 1443,
+        "unmatched": 97,
+        "glossStatus": {
+          "source-aligned": 1443,
+          "unavailable": 97
+        },
+        "pronunciationStatus": {
+          "accent-derived": 1130,
+          "unavailable": 62,
+          "pronunciation-unconfirmed": 143,
+          "joined": 157,
+          "stress-unconfirmed": 16,
+          "convention": 32
+        }
+      },
+      {
+        "bookId": "EZK",
+        "tokens": 18731,
+        "aligned": 18499,
+        "unmatched": 232,
+        "glossStatus": {
+          "source-aligned": 18499,
+          "unavailable": 232
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 930,
+          "accent-derived": 13974,
+          "joined": 2285,
+          "unavailable": 601,
+          "stress-unconfirmed": 507,
+          "convention": 434
+        }
+      },
+      {
+        "bookId": "DAN",
+        "tokens": 5919,
+        "aligned": 5858,
+        "unmatched": 61,
+        "glossStatus": {
+          "source-aligned": 5858,
+          "unavailable": 61
+        },
+        "pronunciationStatus": {
+          "accent-derived": 4620,
+          "pronunciation-unconfirmed": 402,
+          "joined": 618,
+          "unavailable": 78,
+          "stress-unconfirmed": 193,
+          "convention": 8
+        }
+      },
+      {
+        "bookId": "HOS",
+        "tokens": 2381,
+        "aligned": 2360,
+        "unmatched": 21,
+        "glossStatus": {
+          "source-aligned": 2360,
+          "unavailable": 21
+        },
+        "pronunciationStatus": {
+          "joined": 268,
+          "convention": 46,
+          "accent-derived": 1878,
+          "pronunciation-unconfirmed": 102,
+          "stress-unconfirmed": 40,
+          "unavailable": 47
+        }
+      },
+      {
+        "bookId": "JOL",
+        "tokens": 957,
+        "aligned": 949,
+        "unmatched": 8,
+        "glossStatus": {
+          "source-aligned": 949,
+          "unavailable": 8
+        },
+        "pronunciationStatus": {
+          "joined": 101,
+          "convention": 33,
+          "accent-derived": 710,
+          "stress-unconfirmed": 23,
+          "unavailable": 46,
+          "pronunciation-unconfirmed": 44
+        }
+      },
+      {
+        "bookId": "AMO",
+        "tokens": 2042,
+        "aligned": 2010,
+        "unmatched": 32,
+        "glossStatus": {
+          "source-aligned": 2010,
+          "unavailable": 32
+        },
+        "pronunciationStatus": {
+          "accent-derived": 1498,
+          "joined": 269,
+          "stress-unconfirmed": 53,
+          "convention": 81,
+          "unavailable": 60,
+          "pronunciation-unconfirmed": 81
+        }
+      },
+      {
+        "bookId": "OBA",
+        "tokens": 291,
+        "aligned": 289,
+        "unmatched": 2,
+        "glossStatus": {
+          "source-aligned": 289,
+          "unavailable": 2
+        },
+        "pronunciationStatus": {
+          "accent-derived": 205,
+          "pronunciation-unconfirmed": 15,
+          "joined": 41,
+          "stress-unconfirmed": 9,
+          "convention": 7,
+          "unavailable": 14
+        }
+      },
+      {
+        "bookId": "JON",
+        "tokens": 688,
+        "aligned": 683,
+        "unmatched": 5,
+        "glossStatus": {
+          "source-aligned": 683,
+          "unavailable": 5
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 36,
+          "joined": 99,
+          "convention": 26,
+          "accent-derived": 495,
+          "stress-unconfirmed": 17,
+          "unavailable": 15
+        }
+      },
+      {
+        "bookId": "MIC",
+        "tokens": 1396,
+        "aligned": 1371,
+        "unmatched": 25,
+        "glossStatus": {
+          "source-aligned": 1371,
+          "unavailable": 25
+        },
+        "pronunciationStatus": {
+          "joined": 146,
+          "convention": 40,
+          "accent-derived": 1064,
+          "stress-unconfirmed": 27,
+          "unavailable": 47,
+          "pronunciation-unconfirmed": 72
+        }
+      },
+      {
+        "bookId": "NAM",
+        "tokens": 558,
+        "aligned": 555,
+        "unmatched": 3,
+        "glossStatus": {
+          "source-aligned": 555,
+          "unavailable": 3
+        },
+        "pronunciationStatus": {
+          "accent-derived": 455,
+          "pronunciation-unconfirmed": 35,
+          "unavailable": 10,
+          "convention": 13,
+          "joined": 38,
+          "stress-unconfirmed": 7
+        }
+      },
+      {
+        "bookId": "HAB",
+        "tokens": 671,
+        "aligned": 660,
+        "unmatched": 11,
+        "glossStatus": {
+          "unavailable": 11,
+          "source-aligned": 660
+        },
+        "pronunciationStatus": {
+          "pronunciation-unconfirmed": 37,
+          "accent-derived": 520,
+          "joined": 62,
+          "convention": 13,
+          "unavailable": 31,
+          "stress-unconfirmed": 8
+        }
+      },
+      {
+        "bookId": "ZEP",
+        "tokens": 767,
+        "aligned": 757,
+        "unmatched": 10,
+        "glossStatus": {
+          "source-aligned": 757,
+          "unavailable": 10
+        },
+        "pronunciationStatus": {
+          "joined": 103,
+          "convention": 34,
+          "accent-derived": 555,
+          "unavailable": 34,
+          "pronunciation-unconfirmed": 28,
+          "stress-unconfirmed": 13
+        }
+      },
+      {
+        "bookId": "HAG",
+        "tokens": 600,
+        "aligned": 593,
+        "unmatched": 7,
+        "glossStatus": {
+          "source-aligned": 593,
+          "unavailable": 7
+        },
+        "pronunciationStatus": {
+          "accent-derived": 411,
+          "joined": 108,
+          "convention": 35,
+          "pronunciation-unconfirmed": 18,
+          "stress-unconfirmed": 12,
+          "unavailable": 16
+        }
+      },
+      {
+        "bookId": "ZEC",
+        "tokens": 3128,
+        "aligned": 3068,
+        "unmatched": 60,
+        "glossStatus": {
+          "source-aligned": 3068,
+          "unavailable": 60
+        },
+        "pronunciationStatus": {
+          "accent-derived": 2231,
+          "joined": 386,
+          "convention": 133,
+          "stress-unconfirmed": 85,
+          "unavailable": 127,
+          "pronunciation-unconfirmed": 166
+        }
+      },
+      {
+        "bookId": "MAL",
+        "tokens": 876,
+        "aligned": 866,
+        "unmatched": 10,
+        "glossStatus": {
+          "source-aligned": 866,
+          "unavailable": 10
+        },
+        "pronunciationStatus": {
+          "accent-derived": 663,
+          "joined": 93,
+          "convention": 46,
+          "pronunciation-unconfirmed": 23,
+          "unavailable": 30,
+          "stress-unconfirmed": 21
+        }
+      }
+    ],
+    "exceptions": {
+      "count": 39517,
+      "sample": [
+        {
+          "id": "GEN.1/3:4",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.3#05=L"
+        },
+        {
+          "id": "GEN.1/5:6",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.5#07=L"
+        },
+        {
+          "id": "GEN.1/5:7",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.5#08=L"
+        },
+        {
+          "id": "GEN.1/5:9",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.5#10=L"
+        },
+        {
+          "id": "GEN.1/5:12",
+          "alignment": "unmatched",
+          "reason": "no-source-match"
+        },
+        {
+          "id": "GEN.1/7:1",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.7#02=L"
+        },
+        {
+          "id": "GEN.1/7:3",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.7#04=L"
+        },
+        {
+          "id": "GEN.1/7:15",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.7#16=L"
+        },
+        {
+          "id": "GEN.1/8:4",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.8#05=L"
+        },
+        {
+          "id": "GEN.1/8:6",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.8#07=L"
+        },
+        {
+          "id": "GEN.1/8:9",
+          "alignment": "unmatched",
+          "reason": "no-source-match"
+        },
+        {
+          "id": "GEN.1/9:11",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.9#12=L"
+        },
+        {
+          "id": "GEN.1/11:2",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.11#03=L"
+        },
+        {
+          "id": "GEN.1/11:5",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.11#06=L"
+        },
+        {
+          "id": "GEN.1/11:14",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.11#15=L"
+        },
+        {
+          "id": "GEN.1/11:18",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.11#19=L"
+        },
+        {
+          "id": "GEN.1/12:0",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.12#01=L"
+        },
+        {
+          "id": "GEN.1/12:2",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.12#03=L"
+        },
+        {
+          "id": "GEN.1/12:11",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.12#12=L"
+        },
+        {
+          "id": "GEN.1/13:0",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.13#01=L"
+        },
+        {
+          "id": "GEN.1/13:2",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.13#03=L"
+        },
+        {
+          "id": "GEN.1/13:5",
+          "alignment": "unmatched",
+          "reason": "no-source-match"
+        },
+        {
+          "id": "GEN.1/14:8",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.14#09=L"
+        },
+        {
+          "id": "GEN.1/14:13",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.14#14=L"
+        },
+        {
+          "id": "GEN.1/15:7",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.15#08=L"
+        },
+        {
+          "id": "GEN.1/16:10",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.16#11=L"
+        },
+        {
+          "id": "GEN.1/16:17",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.16#18=L"
+        },
+        {
+          "id": "GEN.1/18:1",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.18#02=L"
+        },
+        {
+          "id": "GEN.1/19:0",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.19#01=L"
+        },
+        {
+          "id": "GEN.1/19:2",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.19#03=L"
+        },
+        {
+          "id": "GEN.1/19:5",
+          "alignment": "unmatched",
+          "reason": "no-source-match"
+        },
+        {
+          "id": "GEN.1/21:8",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.21#09=L"
+        },
+        {
+          "id": "GEN.1/21:10",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.21#11=L"
+        },
+        {
+          "id": "GEN.1/22:0",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.22#01=L"
+        },
+        {
+          "id": "GEN.1/23:0",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.23#01=L"
+        },
+        {
+          "id": "GEN.1/23:2",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.23#03=L"
+        },
+        {
+          "id": "GEN.1/23:5",
+          "alignment": "unmatched",
+          "reason": "no-source-match"
+        },
+        {
+          "id": "GEN.1/24:2",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.24#03=L"
+        },
+        {
+          "id": "GEN.1/24:9",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.24#10=L"
+        },
+        {
+          "id": "GEN.1/24:12",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.24#13=L"
+        },
+        {
+          "id": "GEN.1/25:1",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.25#02=L"
+        },
+        {
+          "id": "GEN.1/26:6",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.26#07=L"
+        },
+        {
+          "id": "GEN.1/26:16",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.26#17=L"
+        },
+        {
+          "id": "GEN.1/27:3",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.27#04=L"
+        },
+        {
+          "id": "GEN.1/28:0",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.28#01=L"
+        },
+        {
+          "id": "GEN.1/28:1",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.28#02=L"
+        },
+        {
+          "id": "GEN.1/28:2",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.28#03=L"
+        },
+        {
+          "id": "GEN.1/28:19",
+          "reason": "pronunciation-disagreement",
+          "sourceRef": "Gen.1.28#20=L"
+        },
+        {
+          "id": "GEN.1/29:2",
+          "reason": "unsupported-or-ambiguous-stress",
+          "sourceRef": "Gen.1.29#03=L"
+        },
+        {
+          "id": "GEN.1/29:19",
+          "reason": "syllabification-failed",
+          "sourceRef": "Gen.1.29#20=L"
+        }
+      ]
+    },
+    "regressions": {
+      "GEN.1/1:0": {
+        "text": "בְּרֵאשִׁ֖ית",
+        "gloss": "in · beginning",
+        "syllables": [
+          "be",
+          "re",
+          "shit"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:1": {
+        "text": "בָּרָ֣א",
+        "gloss": "he created",
+        "syllables": [
+          "ba",
+          "ra"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:2": {
+        "text": "אֱלֹהִ֑ים",
+        "gloss": "God",
+        "syllables": [
+          "e",
+          "lo",
+          "him"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:3": {
+        "text": "אֵ֥ת",
+        "gloss": "[object marker]",
+        "syllables": [
+          "et"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:4": {
+        "text": "הַשָּׁמַ֖יִם",
+        "gloss": "the · heavens",
+        "syllables": [
+          "ha",
+          "sha",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:5": {
+        "text": "וְאֵ֥ת",
+        "gloss": "and · [object marker]",
+        "syllables": [
+          "ve",
+          "et"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/1:6": {
+        "text": "הָאָֽרֶץ׃",
+        "gloss": "the · earth",
+        "syllables": [
+          "ha",
+          "a",
+          "rets"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:0": {
+        "text": "וְהָאָ֗רֶץ",
+        "gloss": "and · the · earth",
+        "syllables": [
+          "ve",
+          "ha",
+          "a",
+          "rets"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:1": {
+        "text": "הָיְתָ֥ה",
+        "gloss": "(it) was",
+        "syllables": [
+          "ha",
+          "ye",
+          "tah"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:2": {
+        "text": "תֹ֙הוּ֙",
+        "gloss": "formlessness",
+        "syllables": [
+          "to",
+          "hu"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:3": {
+        "text": "וָבֹ֔הוּ",
+        "gloss": "and · emptiness",
+        "syllables": [
+          "va",
+          "vo",
+          "hu"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:4": {
+        "text": "וְחֹ֖שֶׁךְ",
+        "gloss": "and · darkness",
+        "syllables": [
+          "ve",
+          "kho",
+          "shekh"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:5": {
+        "text": "עַל־",
+        "gloss": "[was] over",
+        "syllables": [
+          "al"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.1/2:6": {
+        "text": "פְּנֵ֣י",
+        "gloss": "[the] surface of",
+        "syllables": [
+          "pe",
+          "ne"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:7": {
+        "text": "תְה֑וֹם",
+        "gloss": "[the] deep",
+        "syllables": [
+          "te",
+          "hom"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:8": {
+        "text": "וְר֣וּחַ",
+        "gloss": "and · [the] spirit of",
+        "syllables": [
+          "ve",
+          "ru",
+          "akh"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:9": {
+        "text": "אֱלֹהִ֔ים",
+        "gloss": "God",
+        "syllables": [
+          "e",
+          "lo",
+          "him"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:10": {
+        "text": "מְרַחֶ֖פֶת",
+        "gloss": "[was] hovering",
+        "syllables": [
+          "me",
+          "ra",
+          "khe",
+          "fet"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:11": {
+        "text": "עַל־",
+        "gloss": "over",
+        "syllables": [
+          "al"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.1/2:12": {
+        "text": "פְּנֵ֥י",
+        "gloss": "[the] surface of",
+        "syllables": [
+          "pe",
+          "ne"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/2:13": {
+        "text": "הַמָּֽיִם׃",
+        "gloss": "the · waters",
+        "syllables": [
+          "ham",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:0": {
+        "text": "וַיַּ֣עַשׂ",
+        "gloss": "and · he made",
+        "syllables": [
+          "vay",
+          "ya",
+          "as"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:1": {
+        "text": "אֱלֹהִים֮",
+        "gloss": "God",
+        "syllables": [
+          "e",
+          "lo",
+          "him"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "GEN.1/7:2": {
+        "text": "אֶת־",
+        "gloss": "[object marker]",
+        "syllables": [
+          "et"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.1/7:3": {
+        "text": "הָרָקִיעַ֒",
+        "gloss": "the · firmament",
+        "syllables": [
+          "ha",
+          "ra",
+          "qi",
+          "a"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "GEN.1/7:4": {
+        "text": "וַיַּבְדֵּ֗ל",
+        "gloss": "and · he separated",
+        "syllables": [
+          "vay",
+          "yav",
+          "del"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:5": {
+        "text": "בֵּ֤ין",
+        "gloss": "between",
+        "syllables": [
+          "ben"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:6": {
+        "text": "הַמַּ֙יִם֙",
+        "gloss": "the · waters",
+        "syllables": [
+          "ham",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:7": {
+        "text": "אֲשֶׁר֙",
+        "gloss": "which",
+        "syllables": [
+          "a",
+          "sher"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:8": {
+        "text": "מִתַּ֣חַת",
+        "gloss": "[were] from · under",
+        "syllables": [
+          "mit",
+          "ta",
+          "khat"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:9": {
+        "text": "לָרָקִ֔יעַ",
+        "gloss": "to the · firmament",
+        "syllables": [
+          "la",
+          "ra",
+          "qi",
+          "a"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:10": {
+        "text": "וּבֵ֣ין",
+        "gloss": "and · between",
+        "syllables": [
+          "u",
+          "ven"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:11": {
+        "text": "הַמַּ֔יִם",
+        "gloss": "the · waters",
+        "syllables": [
+          "ham",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:12": {
+        "text": "אֲשֶׁ֖ר",
+        "gloss": "which",
+        "syllables": [
+          "a",
+          "sher"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:13": {
+        "text": "מֵעַ֣ל",
+        "gloss": "[were] from · (above)",
+        "syllables": [
+          "me",
+          "al"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:14": {
+        "text": "לָרָקִ֑יעַ",
+        "gloss": "(to) the · firmament",
+        "syllables": [
+          "la",
+          "ra",
+          "qi",
+          "a"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.1/7:15": {
+        "text": "וֽ͏ַיְהִי־",
+        "gloss": "and · it was",
+        "syllables": [
+          "va͏",
+          "ye",
+          "hi"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "GEN.1/7:16": {
+        "text": "כֵֽן׃",
+        "gloss": "so",
+        "syllables": [
+          "khen"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:0": {
+        "text": "אֵ֣לֶּה",
+        "gloss": "these",
+        "syllables": [
+          "el",
+          "leh"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:1": {
+        "text": "תוֹלְד֧וֹת",
+        "gloss": "[are] [the] accounts of",
+        "syllables": [
+          "to",
+          "le",
+          "dot"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "GEN.2/4:2": {
+        "text": "הַשָּׁמַ֛יִם",
+        "gloss": "the · heavens",
+        "syllables": [
+          "ha",
+          "sha",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:3": {
+        "text": "וְהָאָ֖רֶץ",
+        "gloss": "and · the · earth",
+        "syllables": [
+          "ve",
+          "ha",
+          "a",
+          "rets"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:4": {
+        "text": "בְּהִבָּֽרְאָ֑ם",
+        "gloss": "when · were created · they",
+        "syllables": [
+          "be",
+          "hib",
+          "ba",
+          "re",
+          "am"
+        ],
+        "stressed": [
+          4
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:5": {
+        "text": "בְּי֗וֹם",
+        "gloss": "on · [the] day",
+        "syllables": [
+          "be",
+          "yom"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:6": {
+        "text": "עֲשׂ֛וֹת",
+        "gloss": "made",
+        "syllables": [],
+        "stressed": [],
+        "status": "unavailable"
+      },
+      "GEN.2/4:7": {
+        "text": "יְהוָ֥ה",
+        "gloss": "Yahweh",
+        "syllables": [
+          "yah",
+          "weh"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "convention"
+      },
+      "GEN.2/4:8": {
+        "text": "אֱלֹהִ֖ים",
+        "gloss": "God",
+        "syllables": [
+          "e",
+          "lo",
+          "him"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:9": {
+        "text": "אֶ֥רֶץ",
+        "gloss": "earth",
+        "syllables": [
+          "e",
+          "rets"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.2/4:10": {
+        "text": "וְשָׁמָֽיִם׃",
+        "gloss": "and · heaven",
+        "syllables": [
+          "ve",
+          "sha",
+          "ma",
+          "yim"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:0": {
+        "text": "וַיֵּצֵ֣א",
+        "gloss": "and · he went out",
+        "syllables": [
+          "vay",
+          "ye",
+          "tse"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:1": {
+        "text": "מֶֽלֶךְ־",
+        "gloss": "[the] king of",
+        "syllables": [
+          "me",
+          "lekh"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.14/17:2": {
+        "text": "סְדֹם֮",
+        "gloss": "Sodom",
+        "syllables": [
+          "se",
+          "dom"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "GEN.14/17:3": {
+        "text": "לִקְרָאתוֹ֒",
+        "gloss": "to · meet · him",
+        "syllables": [
+          "liq",
+          "ra",
+          "to"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "GEN.14/17:4": {
+        "text": "אַחַרֵ֣י",
+        "gloss": null,
+        "syllables": [
+          "a",
+          "kha",
+          "re"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "GEN.14/17:5": {
+        "text": "שׁוּב֗וֹ",
+        "gloss": "returned · he",
+        "syllables": [
+          "shu",
+          "vo"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:6": {
+        "text": "מֽ͏ֵהַכּוֹת֙",
+        "gloss": "from · defeating",
+        "syllables": [],
+        "stressed": [],
+        "status": "unavailable"
+      },
+      "GEN.14/17:7": {
+        "text": "אֶת־",
+        "gloss": "[object marker]",
+        "syllables": [
+          "et"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.14/17:8": {
+        "text": "כְּדָר־",
+        "gloss": null,
+        "syllables": [
+          "ke",
+          "dar"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "GEN.14/17:9": {
+        "text": "לָעֹ֔מֶר",
+        "gloss": null,
+        "syllables": [
+          "la",
+          "o",
+          "mer"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "GEN.14/17:10": {
+        "text": "וְאֶת־",
+        "gloss": "and · [object marker]",
+        "syllables": [
+          "ve",
+          "et"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.14/17:11": {
+        "text": "הַמְּלָכִ֖ים",
+        "gloss": "the · kings",
+        "syllables": [
+          "ham",
+          "me",
+          "la",
+          "khim"
+        ],
+        "stressed": [
+          3
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:12": {
+        "text": "אֲשֶׁ֣ר",
+        "gloss": "who",
+        "syllables": [
+          "a",
+          "sher"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:13": {
+        "text": "אִתּ֑וֹ",
+        "gloss": "[were] with · him",
+        "syllables": [],
+        "stressed": [],
+        "status": "unavailable"
+      },
+      "GEN.14/17:14": {
+        "text": "אֶל־",
+        "gloss": "to",
+        "syllables": [
+          "el"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.14/17:15": {
+        "text": "עֵ֣מֶק",
+        "gloss": "[the] valley of",
+        "syllables": [
+          "e",
+          "meq"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:16": {
+        "text": "שָׁוֵ֔ה",
+        "gloss": "Shaveh",
+        "syllables": [
+          "sha",
+          "veh"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:17": {
+        "text": "ה֖וּא",
+        "gloss": "that",
+        "syllables": [
+          "hu"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:18": {
+        "text": "עֵ֥מֶק",
+        "gloss": "[is] [the] valley of",
+        "syllables": [
+          "e",
+          "meq"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.14/17:19": {
+        "text": "הַמֶּֽלֶךְ׃",
+        "gloss": "the · king",
+        "syllables": [
+          "ham",
+          "me",
+          "lekh"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:0": {
+        "text": "וְעַתָּה֙",
+        "gloss": "and · therefore",
+        "syllables": [
+          "ve",
+          "at",
+          "tah"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:1": {
+        "text": "שָׂא־",
+        "gloss": "take up",
+        "syllables": [
+          "sa"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "GEN.27/3:2": {
+        "text": "נָ֣א",
+        "gloss": "please",
+        "syllables": [
+          "na"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:3": {
+        "text": "כֵלֶ֔יךָ",
+        "gloss": "weapons · your",
+        "syllables": [
+          "khe",
+          "le",
+          "kha"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:4": {
+        "text": "תֶּלְיְךָ֖",
+        "gloss": "quiver · your",
+        "syllables": [
+          "tel",
+          "ye",
+          "kha"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:5": {
+        "text": "וְקַשְׁתֶּ֑ךָ",
+        "gloss": "and · bow · your",
+        "syllables": [
+          "ve",
+          "qash",
+          "te",
+          "kha"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:6": {
+        "text": "וְצֵא֙",
+        "gloss": "and · go out",
+        "syllables": [
+          "ve",
+          "tse"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:7": {
+        "text": "הַשָּׂדֶ֔ה",
+        "gloss": "the · field",
+        "syllables": [
+          "has",
+          "sa",
+          "deh"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:8": {
+        "text": "וְצ֥וּדָה",
+        "gloss": "and · hunt · !",
+        "syllables": [
+          "ve",
+          "tsu",
+          "dah"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:9": {
+        "text": "לִּ֖י",
+        "gloss": "for (the) · me",
+        "syllables": [
+          "li"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "GEN.27/3:11": {
+        "text": "צָֽיִד׃",
+        "gloss": "wild game",
+        "syllables": [
+          "tsa",
+          "yid"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "EZR.4/8:0": {
+        "text": "רְח֣וּם",
+        "gloss": "Rehum",
+        "syllables": [
+          "re",
+          "khum"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:1": {
+        "text": "בְּעֵל־",
+        "gloss": "lord of",
+        "syllables": [
+          "be",
+          "el"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "EZR.4/8:2": {
+        "text": "טְעֵ֗ם",
+        "gloss": "command",
+        "syllables": [
+          "te",
+          "em"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:3": {
+        "text": "וְשִׁמְשַׁי֙",
+        "gloss": "and · Shimshai",
+        "syllables": [
+          "ve",
+          "shim",
+          "shay"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:4": {
+        "text": "סָֽפְרָ֔א",
+        "gloss": "scribe · the",
+        "syllables": [
+          "sa",
+          "fe",
+          "ra"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:5": {
+        "text": "כְּתַ֛בוּ",
+        "gloss": "they wrote",
+        "syllables": [
+          "ke",
+          "ta",
+          "vu"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:6": {
+        "text": "אִגְּרָ֥ה",
+        "gloss": "a letter",
+        "syllables": [
+          "ig",
+          "ge",
+          "rah"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:7": {
+        "text": "חֲדָ֖ה",
+        "gloss": "one",
+        "syllables": [
+          "kha",
+          "dah"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:8": {
+        "text": "עַל־",
+        "gloss": "concerning",
+        "syllables": [
+          "al"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "EZR.4/8:9": {
+        "text": "יְרוּשְׁלֶ֑ם",
+        "gloss": "Jerusalem",
+        "syllables": [
+          "ye",
+          "ru",
+          "she",
+          "lem"
+        ],
+        "stressed": [
+          3
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:10": {
+        "text": "לְאַרְתַּחְשַׁ֥שְׂתְּא",
+        "gloss": "to · Artaxerxes",
+        "syllables": [
+          "le",
+          "ar",
+          "takh",
+          "shast"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "EZR.4/8:11": {
+        "text": "מַלְכָּ֖א",
+        "gloss": "king · the",
+        "syllables": [
+          "mal",
+          "ka"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "EZR.4/8:12": {
+        "text": "כְּנֵֽמָא׃",
+        "gloss": "as follows",
+        "syllables": [
+          "ke",
+          "ne",
+          "ma"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:0": {
+        "text": "אַ֥שְֽׁרֵי־",
+        "gloss": "how blessed!",
+        "syllables": [
+          "a",
+          "she",
+          "re"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "PSA.1/1:1": {
+        "text": "הָאִ֗ישׁ",
+        "gloss": "[is] the · person",
+        "syllables": [
+          "ha",
+          "ish"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:2": {
+        "text": "אֲשֶׁ֤ר ׀",
+        "gloss": "who",
+        "syllables": [
+          "a",
+          "sher"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:3": {
+        "text": "לֹ֥א",
+        "gloss": "not",
+        "syllables": [
+          "lo"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:4": {
+        "text": "הָלַךְ֮",
+        "gloss": "he walks",
+        "syllables": [
+          "ha",
+          "lakh"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.1/1:5": {
+        "text": "בַּעֲצַ֢ת",
+        "gloss": "in · [the] counsel of",
+        "syllables": [
+          "ba",
+          "a",
+          "tsat"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.1/1:6": {
+        "text": "רְשָׁ֫עִ֥ים",
+        "gloss": "wicked [people]",
+        "syllables": [
+          "re",
+          "sha",
+          "im"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.1/1:7": {
+        "text": "וּבְדֶ֣רֶךְ",
+        "gloss": "and · in · [the] way of",
+        "syllables": [
+          "u",
+          "ve",
+          "de",
+          "rekh"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:8": {
+        "text": "חַ֭טָּאִים",
+        "gloss": "sinners",
+        "syllables": [
+          "khat",
+          "ta",
+          "im"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.1/1:9": {
+        "text": "לֹ֥א",
+        "gloss": "not",
+        "syllables": [
+          "lo"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:10": {
+        "text": "עָמָ֑ד",
+        "gloss": "he stands",
+        "syllables": [
+          "a",
+          "mad"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:11": {
+        "text": "וּבְמוֹשַׁ֥ב",
+        "gloss": "and · in · [the] seat of",
+        "syllables": [
+          "u",
+          "ve",
+          "mo",
+          "shav"
+        ],
+        "stressed": [
+          3
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:12": {
+        "text": "לֵ֝צִ֗ים",
+        "gloss": "mockers",
+        "syllables": [
+          "le",
+          "tsim"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.1/1:13": {
+        "text": "לֹ֣א",
+        "gloss": "not",
+        "syllables": [
+          "lo"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.1/1:14": {
+        "text": "יָשָֽׁב׃",
+        "gloss": "he sits",
+        "syllables": [
+          "ya",
+          "shav"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.2/1:0": {
+        "text": "לָ֭מָּה",
+        "gloss": "(to) · why?",
+        "syllables": [
+          "lam",
+          "mah"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.2/1:1": {
+        "text": "רָגְשׁ֣וּ",
+        "gloss": "do they plot",
+        "syllables": [
+          "ra",
+          "ge",
+          "shu"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.2/1:2": {
+        "text": "גוֹיִ֑ם",
+        "gloss": "nations",
+        "syllables": [
+          "go",
+          "yim"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "PSA.2/1:3": {
+        "text": "וּ֝לְאֻמִּ֗ים",
+        "gloss": "and · peoples",
+        "syllables": [
+          "u",
+          "le",
+          "um",
+          "mim"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "PSA.2/1:4": {
+        "text": "יֶהְגּוּ־",
+        "gloss": "do they devise?",
+        "syllables": [
+          "yeh",
+          "gu"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "PSA.2/1:5": {
+        "text": "רִֽיק׃",
+        "gloss": "vanity",
+        "syllables": [
+          "riq"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:0": {
+        "text": "כִּדְנָה֙",
+        "gloss": "like · this",
+        "syllables": [
+          "kid",
+          "nah"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:1": {
+        "text": "תֵּאמְר֣וּן",
+        "gloss": "you will say",
+        "syllables": [
+          "te",
+          "me",
+          "run"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "JER.10/11:2": {
+        "text": "לְה֔וֹם",
+        "gloss": "to (the) · them",
+        "syllables": [
+          "le",
+          "hom"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:3": {
+        "text": "אֱלָ֣הַיָּ֔א",
+        "gloss": "gods · the",
+        "syllables": [
+          "e",
+          "la",
+          "hay",
+          "ya"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "JER.10/11:4": {
+        "text": "דִּֽי־",
+        "gloss": "who",
+        "syllables": [
+          "di"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "JER.10/11:5": {
+        "text": "שְׁמַיָּ֥א",
+        "gloss": "heavens · the",
+        "syllables": [
+          "she",
+          "may",
+          "ya"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:6": {
+        "text": "וְאַרְקָ֖א",
+        "gloss": "and · earth · the",
+        "syllables": [
+          "ve",
+          "ar",
+          "qa"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:7": {
+        "text": "לָ֣א",
+        "gloss": "not",
+        "syllables": [
+          "la"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:8": {
+        "text": "עֲבַ֑דוּ",
+        "gloss": "they made",
+        "syllables": [
+          "a",
+          "va",
+          "du"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:9": {
+        "text": "יֵאבַ֧דוּ",
+        "gloss": "may they perish",
+        "syllables": [
+          "ye",
+          "va",
+          "du"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:10": {
+        "text": "מֵֽאַרְעָ֛א",
+        "gloss": "from · earth · the",
+        "syllables": [
+          "me",
+          "ar",
+          "a"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:11": {
+        "text": "וּמִן־",
+        "gloss": "and · from",
+        "syllables": [
+          "u",
+          "min"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "JER.10/11:12": {
+        "text": "תְּח֥וֹת",
+        "gloss": "under",
+        "syllables": [
+          "te",
+          "khot"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:13": {
+        "text": "שְׁמַיָּ֖א",
+        "gloss": "heavens · the",
+        "syllables": [
+          "she",
+          "may",
+          "ya"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "JER.10/11:14": {
+        "text": "אֵֽלֶּה׃",
+        "gloss": null,
+        "syllables": [
+          "el",
+          "leh"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/4:0": {
+        "text": "וַֽיְדַבְּר֧וּ",
+        "gloss": "and · they spoke",
+        "syllables": [
+          "va",
+          "ye",
+          "dab",
+          "be",
+          "ru"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/4:1": {
+        "text": "הַכַּשְׂדִּ֛ים",
+        "gloss": "the · Chaldeans",
+        "syllables": [
+          "hak",
+          "kas",
+          "dim"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:2": {
+        "text": "לַמֶּ֖לֶךְ",
+        "gloss": "to the · king",
+        "syllables": [
+          "lam",
+          "me",
+          "lekh"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:3": {
+        "text": "אֲרָמִ֑ית",
+        "gloss": "Aramaic",
+        "syllables": [
+          "a",
+          "ra",
+          "mit"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:4": {
+        "text": "מַלְכָּא֙",
+        "gloss": "king · O",
+        "syllables": [
+          "mal",
+          "ka"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:5": {
+        "text": "לְעָלְמִ֣ין",
+        "gloss": "for · ever",
+        "syllables": [
+          "le",
+          "a",
+          "le",
+          "min"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/4:6": {
+        "text": "חֱיִ֔י",
+        "gloss": "live!",
+        "syllables": [
+          "khe",
+          "yi"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:7": {
+        "text": "אֱמַ֥ר",
+        "gloss": "tell!",
+        "syllables": [
+          "e",
+          "mar"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:8": {
+        "text": "חֶלְמָ֛א",
+        "gloss": "dream · the",
+        "syllables": [
+          "khel",
+          "ma"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:10": {
+        "text": "לְעַבְדָ֖ךְ",
+        "gloss": "to · servant · your",
+        "syllables": [
+          "le",
+          "av",
+          "dakh"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/4:11": {
+        "text": "וּפִשְׁרָ֥א",
+        "gloss": "and · interpretation · the",
+        "syllables": [
+          "u",
+          "fish",
+          "ra"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/4:12": {
+        "text": "נְחַוֵּֽא׃",
+        "gloss": "we will declare",
+        "syllables": [
+          "ne",
+          "khav",
+          "ve"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:0": {
+        "text": "וְדִֽי־",
+        "gloss": "and · that",
+        "syllables": [
+          "ve",
+          "di"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "DAN.2/41:1": {
+        "text": "חֲזַ֜יְתָה",
+        "gloss": "you saw",
+        "syllables": [
+          "kha",
+          "zay",
+          "tah"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:2": {
+        "text": "רַגְלַיָּ֣א",
+        "gloss": "feet · the",
+        "syllables": [
+          "rag",
+          "lay",
+          "ya"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:3": {
+        "text": "וְאֶצְבְּעָתָ֗א",
+        "gloss": "and · toes · the",
+        "syllables": [
+          "ve",
+          "ets",
+          "be",
+          "a",
+          "ta"
+        ],
+        "stressed": [
+          4
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:5": {
+        "text": "מִנְּהֵ֞ן",
+        "gloss": "some of · them",
+        "syllables": [
+          "min",
+          "ne",
+          "hen"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/41:6": {
+        "text": "חֲסַ֤ף",
+        "gloss": "clay",
+        "syllables": [
+          "kha",
+          "saf"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:7": {
+        "text": "דִּֽי־",
+        "gloss": "of",
+        "syllables": [
+          "di"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "DAN.2/41:8": {
+        "text": "פֶחָר֙",
+        "gloss": "a potter",
+        "syllables": [
+          "fe",
+          "khar"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:10": {
+        "text": "וּמִנְּהֵ֣ין",
+        "gloss": "and · some of · them",
+        "syllables": [
+          "u",
+          "min",
+          "ne",
+          "hen"
+        ],
+        "stressed": [],
+        "status": "pronunciation-unconfirmed"
+      },
+      "DAN.2/41:11": {
+        "text": "פַּרְזֶ֔ל",
+        "gloss": "iron",
+        "syllables": [
+          "par",
+          "zel"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:12": {
+        "text": "מַלְכ֤וּ",
+        "gloss": "a kingdom",
+        "syllables": [
+          "mal",
+          "khu"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:13": {
+        "text": "פְלִיגָה֙",
+        "gloss": "divided",
+        "syllables": [
+          "fe",
+          "li",
+          "gah"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:14": {
+        "text": "תֶּהֱוֵ֔ה",
+        "gloss": "it will be",
+        "syllables": [
+          "te",
+          "he",
+          "veh"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:15": {
+        "text": "וּמִן־",
+        "gloss": "and · some of",
+        "syllables": [
+          "u",
+          "min"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "DAN.2/41:16": {
+        "text": "נִצְבְּתָ֥א",
+        "gloss": "firmness · the",
+        "syllables": [
+          "nits",
+          "be",
+          "ta"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:17": {
+        "text": "דִֽי",
+        "gloss": "of",
+        "syllables": [
+          "di"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "DAN.2/41:18": {
+        "text": "פַרְזְלָ֖א",
+        "gloss": "iron · the",
+        "syllables": [
+          "far",
+          "ze",
+          "la"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:19": {
+        "text": "לֶֽהֱוֵא־",
+        "gloss": "it will be",
+        "syllables": [
+          "le",
+          "he",
+          "ve"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "DAN.2/41:20": {
+        "text": "בַ֑הּ",
+        "gloss": "in · it",
+        "syllables": [
+          "vah"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:21": {
+        "text": "כָּל־",
+        "gloss": "as · to",
+        "syllables": [
+          "kol"
+        ],
+        "stressed": [],
+        "status": "joined"
+      },
+      "DAN.2/41:22": {
+        "text": "קֳבֵל֙",
+        "gloss": "because",
+        "syllables": [
+          "qo",
+          "vel"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:23": {
+        "text": "דִּ֣י",
+        "gloss": "that",
+        "syllables": [
+          "di"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:24": {
+        "text": "חֲזַ֔יְתָה",
+        "gloss": "you saw",
+        "syllables": [
+          "kha",
+          "zay",
+          "tah"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:25": {
+        "text": "פַּ֨רְזְלָ֔א",
+        "gloss": "iron · the",
+        "syllables": [
+          "par",
+          "ze",
+          "la"
+        ],
+        "stressed": [],
+        "status": "stress-unconfirmed"
+      },
+      "DAN.2/41:26": {
+        "text": "מְעָרַ֖ב",
+        "gloss": "mixed",
+        "syllables": [
+          "me",
+          "a",
+          "rav"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:27": {
+        "text": "בַּחֲסַ֥ף",
+        "gloss": "with · [the] clay of",
+        "syllables": [
+          "ba",
+          "kha",
+          "saf"
+        ],
+        "stressed": [
+          2
+        ],
+        "status": "accent-derived"
+      },
+      "DAN.2/41:28": {
+        "text": "טִינָֽא׃",
+        "gloss": "clay · the",
+        "syllables": [
+          "ti",
+          "na"
+        ],
+        "stressed": [
+          1
+        ],
+        "status": "accent-derived"
+      }
+    },
+    "outputFiles": [
+      {
+        "bookId": "GEN",
+        "file": "public/aids/GEN.json",
+        "bytes": 7021152,
+        "sha256": "ca6104d0fa91a6aee6fc86c90e70f6ce8a7b857c0461723f9dd0b379e067c369"
+      },
+      {
+        "bookId": "EXO",
+        "file": "public/aids/EXO.json",
+        "bytes": 5667217,
+        "sha256": "cebf7847b98f13e1ebb3a805362d9d16ca7b5f3cb590282233292abc18060f77"
+      },
+      {
+        "bookId": "LEV",
+        "file": "public/aids/LEV.json",
+        "bytes": 4080002,
+        "sha256": "6725f2d78310e7887554dc62449ff81b67f43228b14e87615ee04e4169d39b29"
+      },
+      {
+        "bookId": "NUM",
+        "file": "public/aids/NUM.json",
+        "bytes": 5529694,
+        "sha256": "f60f2d48ed9bab6ab72fbf233383bbf4d0541f1bf788e35385cf60d190a3d48f"
+      },
+      {
+        "bookId": "DEU",
+        "file": "public/aids/DEU.json",
+        "bytes": 4894384,
+        "sha256": "c09bf62dfd8bac5bbd3c4c8913f65e7e996c84f697e560a66308bff96cc2f86e"
+      },
+      {
+        "bookId": "JOS",
+        "file": "public/aids/JOS.json",
+        "bytes": 3387441,
+        "sha256": "2488afde2abdd77376152da864ec406bc4cf04daa90a22b823b946b37ffb9bb5"
+      },
+      {
+        "bookId": "JDG",
+        "file": "public/aids/JDG.json",
+        "bytes": 3355240,
+        "sha256": "b1e83a1dc53dd7a7a7ba0f27c43b1f1156865a7a1a86149d974188cdd3114d26"
+      },
+      {
+        "bookId": "RUT",
+        "file": "public/aids/RUT.json",
+        "bytes": 442161,
+        "sha256": "0d9647d8ee778c5ddd926a7b3f17d6ded80c95a22ede3af2e7e3dc627c4a4180"
+      },
+      {
+        "bookId": "1SA",
+        "file": "public/aids/1SA.json",
+        "bytes": 4490969,
+        "sha256": "36cf29b32229f91db17749005d430d8d337d660b73b50c15b4b24263a5d7a24e"
+      },
+      {
+        "bookId": "2SA",
+        "file": "public/aids/2SA.json",
+        "bytes": 3718034,
+        "sha256": "b6249f2720c17144a4a8403735a90d35d9c39471ff797bf6662f637af73841c0"
+      },
+      {
+        "bookId": "1KI",
+        "file": "public/aids/1KI.json",
+        "bytes": 4426117,
+        "sha256": "e54a4de5ad2eaf68488a20162f85b1e7a51e33e40fc489921e9bde340c0dfb22"
+      },
+      {
+        "bookId": "2KI",
+        "file": "public/aids/2KI.json",
+        "bytes": 4141237,
+        "sha256": "082897180ca1b517f4c5e6631cdbcbe9893f2b3d8d93d4cb620fb9bd1b03b1aa"
+      },
+      {
+        "bookId": "1CH",
+        "file": "public/aids/1CH.json",
+        "bytes": 3576836,
+        "sha256": "94f3517206a18b47d8c99a48aecf8133a2fcef7134a2d187f1cdb24061e32279"
+      },
+      {
+        "bookId": "2CH",
+        "file": "public/aids/2CH.json",
+        "bytes": 4525502,
+        "sha256": "609672c7d712b39af03fb4f77021228387f301577b344b06b8f866adc3a2002c"
+      },
+      {
+        "bookId": "EZR",
+        "file": "public/aids/EZR.json",
+        "bytes": 1253479,
+        "sha256": "6909e28350849489e60919ca1591d8c4c974a583860e79f44422980a66cc2bf7"
+      },
+      {
+        "bookId": "NEH",
+        "file": "public/aids/NEH.json",
+        "bytes": 1799380,
+        "sha256": "a5837cf97f16ca0d8ae815147d794e47ae4249cdc93c58da0678c5ee462fd33d"
+      },
+      {
+        "bookId": "EST",
+        "file": "public/aids/EST.json",
+        "bytes": 1033121,
+        "sha256": "3c8225872fe263a69efd3bd02d9c0662203a15f3a50de940d8cf8ab144e727e4"
+      },
+      {
+        "bookId": "JOB",
+        "file": "public/aids/JOB.json",
+        "bytes": 2893629,
+        "sha256": "de57e6c64fa9a6672f76f9aefbe641e0d269544dd8d3c8a6d8dcf05a353e6da9"
+      },
+      {
+        "bookId": "PSA",
+        "file": "public/aids/PSA.json",
+        "bytes": 6980513,
+        "sha256": "98731059b9d91ccefd8ebd1f9c1a1c4ea58c4da973a750c2081d70bf9c7803a9"
+      },
+      {
+        "bookId": "PRO",
+        "file": "public/aids/PRO.json",
+        "bytes": 2373233,
+        "sha256": "41ce58a9ff1a7c5d4835e9809aca664ef316d7e2a9e1645de7b8d66180106efd"
+      },
+      {
+        "bookId": "ECC",
+        "file": "public/aids/ECC.json",
+        "bytes": 986595,
+        "sha256": "2e67e78ade933973e1ad4e95d2375e869ae9129f30722719d95ace5cc50a5bf0"
+      },
+      {
+        "bookId": "SNG",
+        "file": "public/aids/SNG.json",
+        "bytes": 426308,
+        "sha256": "9290c1e7fccb3e7e3c328b566cc4893f55db2e8e702d88fe5b537f414d3aa691"
+      },
+      {
+        "bookId": "ISA",
+        "file": "public/aids/ISA.json",
+        "bytes": 5678649,
+        "sha256": "67967e5ac31b9d7935f4f5031fd47aa4ec27c7f2ec85ddb48af11a2e36a4d70d"
+      },
+      {
+        "bookId": "JER",
+        "file": "public/aids/JER.json",
+        "bytes": 7295779,
+        "sha256": "ee391ab57067f0d0e387d744f65029839266b82b30fa90130d13adbe47c3aa12"
+      },
+      {
+        "bookId": "LAM",
+        "file": "public/aids/LAM.json",
+        "bytes": 508251,
+        "sha256": "bbde58a30467e79fc28db52eb58416d62950a373c9c993225a357d198abd109a"
+      },
+      {
+        "bookId": "EZK",
+        "file": "public/aids/EZK.json",
+        "bytes": 6384778,
+        "sha256": "780484a0b1c44749faa4518c8e4d1ca13fef0a561880292709bb89e3987d6517"
+      },
+      {
+        "bookId": "DAN",
+        "file": "public/aids/DAN.json",
+        "bytes": 2062447,
+        "sha256": "309f418a05f71210d9beff71aec96ca5bc74c4e3d383e206a38cf7b1e9f8b200"
+      },
+      {
+        "bookId": "HOS",
+        "file": "public/aids/HOS.json",
+        "bytes": 801422,
+        "sha256": "59034c4f6e38aa6797073dcc9370bbd319cc8546851882fb2d1864fa8970d0b3"
+      },
+      {
+        "bookId": "JOL",
+        "file": "public/aids/JOL.json",
+        "bytes": 323250,
+        "sha256": "183414c927daee561d2febc8851c8faa940530304f2a3260043e3e23b04d2c2f"
+      },
+      {
+        "bookId": "AMO",
+        "file": "public/aids/AMO.json",
+        "bytes": 674117,
+        "sha256": "82fa51ba34f1cce9922346f265875bff92e5ccc16d3f49311901c4d535185c70"
+      },
+      {
+        "bookId": "OBA",
+        "file": "public/aids/OBA.json",
+        "bytes": 98436,
+        "sha256": "6d9414dd6079f3f541b8c59d030cc28840779088ccd33201ef93e72f0a825b01"
+      },
+      {
+        "bookId": "JON",
+        "file": "public/aids/JON.json",
+        "bytes": 233997,
+        "sha256": "2d1627f8e6a286c257a86fed320852ea83a0303cde5391152be9af2fb9380fc8"
+      },
+      {
+        "bookId": "MIC",
+        "file": "public/aids/MIC.json",
+        "bytes": 467923,
+        "sha256": "89db88ed5b6315a86c5e2e91213c79594fa8ac9e0b84f35af18fd26272a4f007"
+      },
+      {
+        "bookId": "NAM",
+        "file": "public/aids/NAM.json",
+        "bytes": 189194,
+        "sha256": "db449baf30453278e9b28c71e4a63a4f19d11faa81b0bd992e7195efba9cd4a4"
+      },
+      {
+        "bookId": "HAB",
+        "file": "public/aids/HAB.json",
+        "bytes": 224460,
+        "sha256": "a23a21682c470dcc776ff6ce41b09939254e919e79db51961a046777becc6c67"
+      },
+      {
+        "bookId": "ZEP",
+        "file": "public/aids/ZEP.json",
+        "bytes": 255174,
+        "sha256": "7e7bfefa6372c1fbd0a34bb88d7c4c7d7da8d6ee5f5ad4799d3c4f0fd81ba751"
+      },
+      {
+        "bookId": "HAG",
+        "file": "public/aids/HAG.json",
+        "bytes": 199890,
+        "sha256": "50ae251e66be2709460c8efc0082566db95f2e402260f77a324f310711c24b8d"
+      },
+      {
+        "bookId": "ZEC",
+        "file": "public/aids/ZEC.json",
+        "bytes": 1051583,
+        "sha256": "302eff900e620ba266f3a0ebf3e0d91cb0f2146e60f20ad2dfbbf0d10aca84f8"
+      },
+      {
+        "bookId": "MAL",
+        "file": "public/aids/MAL.json",
+        "bytes": 291769,
+        "sha256": "8f01673de46997b1b6877b4dd628859f9330226fb3905ccf1219afb929bf8a11"
+      }
+    ]
+  },
+  "greek": {
+    "schemaVersion": 1,
+    "corpusHash": "c81a17500cfab313737bc0ffe3c4338f03cd947a9c2961fe33927ab944d43f37",
+    "maculaCommit": "8423afe47b9e8f24b7772e808af45c7159a6fe7e",
+    "stepCommit": "b99716b0cddb648ddb95cc786a197180f2f97d48",
+    "greekAccentuationCommit": "15ac5fd1cc82c8f9b91a4041f9b64399c9552097",
+    "formExceptions": [
+      {
+        "ref": "MAT 15:14!5",
+        "original": "ὁδηγοὶ",
+        "macula": "ὁδηγοί",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "MAT 15:15!10",
+        "original": "παραβολὴν",
+        "macula": "παραβολήν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "MAT 26:36!10",
+        "original": "Γεθσημανί",
+        "macula": "Γεθσημανὶ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "MAT 27:24!1",
+        "original": "Ἰδὼν",
+        "macula": "ἰδὼν",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "MRK 7:27!10",
+        "original": "γὰρ",
+        "macula": "γάρ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "LUK 1:27!10",
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "LUK 2:51!8",
+        "original": "Ναζαρέθ",
+        "macula": "Ναζαρὲθ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "LUK 5:1!22",
+        "original": "Γεννησαρέτ",
+        "macula": "Γεννησαρὲτ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "LUK 8:20!15",
+        "original": "θέλοντες",
+        "macula": "θέλοντές",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 7:34!5",
+        "original": "εὑρήσετε",
+        "macula": "εὑρήσετέ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 7:36!12",
+        "original": "εὑρήσετε",
+        "macula": "εὑρήσετέ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 7:42!9",
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 7:42!17",
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 7:53!1",
+        "original": "καὶ",
+        "macula": "Καὶ",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "JHN 8:1!6",
+        "original": "ὄρος",
+        "macula": "Ὄρος",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "JHN 8:5!5",
+        "original": "Μωσῆς",
+        "macula": "Μωϋσῆς",
+        "note": "MACULA spells the name Moses as Μωϋσῆς. The app keeps its SBLGNT form Μωσῆς and derives syllables from that form; the name gloss is equivalent."
+      },
+      {
+        "ref": "JHN 8:9!2",
+        "original": "δέ",
+        "macula": "δὲ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "JHN 8:10!13",
+        "original": "Ποῦ",
+        "macula": "ποῦ",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "JHN 8:10!19",
+        "original": "Οὐδείς",
+        "macula": "οὐδείς",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "JHN 10:29!9",
+        "original": "ἐστίν",
+        "macula": "ἐστιν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "ACT 2:29!12",
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "1CO 14:37!14",
+        "original": "ἐστίν",
+        "macula": "ἐστὶν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "TIT 3:13!1",
+        "original": "Ζηνᾶν",
+        "macula": "ζηνᾶν",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      {
+        "ref": "HEB 3:6!9",
+        "original": "ὃς",
+        "macula": "ὅς",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      {
+        "ref": "2PE 2:10!13",
+        "original": "Τολμηταί",
+        "macula": "Τολμηταὶ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      }
+    ],
+    "grammaticalMarkers": {
+      "count": 5252,
+      "sample": [
+        {
+          "ref": "MAT 1:2!3",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:2!8",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:2!13",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:3!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:3!7",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:3!10",
+          "text": "τῆς",
+          "sourceMorph": "T-GSF",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:3!15",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:3!20",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:4!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:4!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:4!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:5!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:5!7",
+          "text": "τῆς",
+          "sourceMorph": "T-GSF",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:5!12",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:5!15",
+          "text": "τῆς",
+          "sourceMorph": "T-GSF",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:5!20",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:6!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:6!11",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:6!15",
+          "text": "τοῦ",
+          "sourceMorph": "T-GSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:7!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:7!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:7!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:8!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:8!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:8!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:9!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:9!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:9!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:10!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:10!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:10!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:11!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:12!8",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:12!13",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:13!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:13!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:13!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:14!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:14!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:14!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:15!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:15!9",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:15!14",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:16!4",
+          "text": "τὸν",
+          "sourceMorph": "T-ASM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:18!1",
+          "text": "Τοῦ",
+          "sourceMorph": "T-GSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:18!14",
+          "text": "τῷ",
+          "sourceMorph": "T-DSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:23!21",
+          "text": "ὁ",
+          "sourceMorph": "T-NSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 1:24!3",
+          "text": "ὁ",
+          "sourceMorph": "T-NSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 2:1!1",
+          "text": "Τοῦ",
+          "sourceMorph": "T-GSM",
+          "rule": "article-marker-v1"
+        },
+        {
+          "ref": "MAT 2:1!7",
+          "text": "τῆς",
+          "sourceMorph": "T-GSF",
+          "rule": "article-marker-v1"
+        }
+      ]
+    },
+    "glossFallbacks": {
+      "count": 725,
+      "sample": [
+        {
+          "ref": "MAT 2:13!29",
+          "sourceRef": "Mat.2.13#29=NKO",
+          "text": "ἂν",
+          "gloss": "when"
+        },
+        {
+          "ref": "MAT 3:2!1",
+          "sourceRef": "Mat.3.2#01=NKO",
+          "text": "καὶ",
+          "gloss": "and"
+        },
+        {
+          "ref": "MAT 3:7!12",
+          "sourceRef": "Mat.3.7#12=NKO",
+          "text": "αὐτοῦ",
+          "gloss": "of him"
+        },
+        {
+          "ref": "MAT 3:14!3",
+          "sourceRef": "Mat.3.14#03=NKO",
+          "text": "Ἰωάννης",
+          "gloss": "John"
+        },
+        {
+          "ref": "MAT 3:15!6",
+          "sourceRef": "Mat.3.15#06=NKO",
+          "text": "πρὸς",
+          "gloss": "unto"
+        },
+        {
+          "ref": "MAT 4:6!14",
+          "sourceRef": "Mat.4.6#14=NKO",
+          "text": "ὅτι",
+          "gloss": "that"
+        },
+        {
+          "ref": "MAT 4:6!26",
+          "sourceRef": "Mat.4.6#26=NKO",
+          "text": "μήποτε",
+          "gloss": "otherwise"
+        },
+        {
+          "ref": "MAT 5:19!25",
+          "sourceRef": "Mat.5.19#25=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 5:21!10",
+          "sourceRef": "Mat.5.21#10=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 5:25!15",
+          "sourceRef": "Mat.5.25#15=NKO",
+          "text": "μήποτέ",
+          "gloss": "otherwise"
+        },
+        {
+          "ref": "MAT 5:26!9",
+          "sourceRef": "Mat.5.26#09=NKO",
+          "text": "ἂν",
+          "gloss": "when"
+        },
+        {
+          "ref": "MAT 5:31!4",
+          "sourceRef": "Mat.5.31#05=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 6:1!17",
+          "sourceRef": "Mat.6.1#17=NKO",
+          "text": "μή",
+          "gloss": "except"
+        },
+        {
+          "ref": "MAT 6:1!18",
+          "sourceRef": "Mat.6.1#18=NKO",
+          "text": "γε",
+          "gloss": "indeed"
+        },
+        {
+          "ref": "MAT 7:6!15",
+          "sourceRef": "Mat.7.6#15=NKO",
+          "text": "μήποτε",
+          "gloss": "otherwise"
+        },
+        {
+          "ref": "MAT 7:20!1",
+          "sourceRef": "Mat.7.20#01=NKO",
+          "text": "ἄρα",
+          "gloss": "Then"
+        },
+        {
+          "ref": "MAT 7:20!2",
+          "sourceRef": "Mat.7.20#02=NKO",
+          "text": "γε",
+          "gloss": "surely"
+        },
+        {
+          "ref": "MAT 7:23!5",
+          "sourceRef": "Mat.7.23#05=NKO",
+          "text": "ὅτι",
+          "gloss": "that"
+        },
+        {
+          "ref": "MAT 8:7!1",
+          "sourceRef": "Mat.8.7#01=NKO",
+          "text": "καὶ",
+          "gloss": "And"
+        },
+        {
+          "ref": "MAT 8:18!5",
+          "sourceRef": "Mat.8.18#05=KO",
+          "text": "πολλοὺς",
+          "gloss": "great"
+        },
+        {
+          "ref": "MAT 9:6!20",
+          "sourceRef": "Mat.9.6#20=NK(o)",
+          "text": "Ἐγερθεὶς",
+          "gloss": "Having arisen"
+        },
+        {
+          "ref": "MAT 9:14!15",
+          "sourceRef": "Mat.9.14#15=NKO",
+          "text": "πολλά",
+          "gloss": "many times"
+        },
+        {
+          "ref": "MAT 9:17!10",
+          "sourceRef": "Mat.9.17#10=NKO",
+          "text": "μή",
+          "gloss": "except"
+        },
+        {
+          "ref": "MAT 9:17!11",
+          "sourceRef": "Mat.9.17#11=NKO",
+          "text": "γε",
+          "gloss": "indeed"
+        },
+        {
+          "ref": "MAT 9:18!12",
+          "sourceRef": "Mat.9.18#12=NKO",
+          "text": "ὅτι",
+          "gloss": "that"
+        },
+        {
+          "ref": "MAT 9:27!7",
+          "sourceRef": "Mat.9.27#07=NKO",
+          "text": "αὐτῷ",
+          "gloss": "Him"
+        },
+        {
+          "ref": "MAT 9:32!7",
+          "sourceRef": "Mat.9.32#07=NKO",
+          "text": "ἄνθρωπον",
+          "gloss": "a man"
+        },
+        {
+          "ref": "MAT 10:7!5",
+          "sourceRef": "Mat.10.7#05=NKO",
+          "text": "ὅτι",
+          "gloss": "that"
+        },
+        {
+          "ref": "MAT 10:14!3",
+          "sourceRef": "Mat.10.14#03=N(k)O",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 10:23!25",
+          "sourceRef": "Mat.10.23#25=NKO",
+          "text": "ἂν",
+          "gloss": "when"
+        },
+        {
+          "ref": "MAT 10:33!3",
+          "sourceRef": "Mat.10.33#03=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 10:42!3",
+          "sourceRef": "Mat.10.42#03=N(k)O",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 11:8!19",
+          "sourceRef": "Mat.11.8#20=NKO",
+          "text": "εἰσίν",
+          "gloss": "are"
+        },
+        {
+          "ref": "MAT 11:23!23",
+          "sourceRef": "Mat.11.23#24=NKO",
+          "text": "ἂν",
+          "gloss": "then would"
+        },
+        {
+          "ref": "MAT 12:7!12",
+          "sourceRef": "Mat.12.7#12=NKO",
+          "text": "ἂν",
+          "gloss": "then would"
+        },
+        {
+          "ref": "MAT 12:18!10",
+          "sourceRef": "Mat.12.18#10=NK(o)",
+          "text": "εἰς",
+          "gloss": "in"
+        },
+        {
+          "ref": "MAT 12:20!11",
+          "sourceRef": "Mat.12.20#11=NKO",
+          "text": "ἂν",
+          "gloss": "when"
+        },
+        {
+          "ref": "MAT 12:32!15",
+          "sourceRef": "Mat.12.32#15=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 12:46!2",
+          "sourceRef": "Mat.12.46#02=ko",
+          "text": "δὲ",
+          "gloss": "now"
+        },
+        {
+          "ref": "MAT 12:50!3",
+          "sourceRef": "Mat.12.50#03=NKO",
+          "text": "ἂν",
+          "gloss": "maybe"
+        },
+        {
+          "ref": "MAT 13:7!12",
+          "sourceRef": "Mat.13.7#12=N(k)O",
+          "text": "ἔπνιξαν",
+          "gloss": "choked"
+        },
+        {
+          "ref": "MAT 13:11!5",
+          "sourceRef": "Mat.13.11#05=NKO",
+          "text": "αὐτοῖς",
+          "gloss": "to them"
+        },
+        {
+          "ref": "MAT 13:15!18",
+          "sourceRef": "Mat.13.15#18=NKO",
+          "text": "μήποτε",
+          "gloss": "otherwise"
+        },
+        {
+          "ref": "MAT 13:22!18",
+          "sourceRef": "Mat.13.22#18=ko",
+          "text": "τούτου",
+          "gloss": "this"
+        },
+        {
+          "ref": "MAT 13:29!5",
+          "sourceRef": "Mat.13.29#05=NKO",
+          "text": "μήποτε",
+          "gloss": "lest when"
+        },
+        {
+          "ref": "MAT 13:44!24",
+          "sourceRef": "Mat.13.44#25=NKO",
+          "text": "πάντα",
+          "gloss": "all"
+        },
+        {
+          "ref": "MAT 13:45!8",
+          "sourceRef": "Mat.13.45#08=NKO",
+          "text": "ἀνθρώπῳ",
+          "gloss": "to a man"
+        },
+        {
+          "ref": "MAT 14:3!8",
+          "sourceRef": "Mat.14.3#08=NKO",
+          "text": "αὐτὸν",
+          "gloss": "him"
+        },
+        {
+          "ref": "MAT 14:26!12",
+          "sourceRef": "Mat.14.26#12=NKO",
+          "text": "ὅτι",
+          "gloss": "that"
+        },
+        {
+          "ref": "MAT 14:30!5",
+          "sourceRef": "Mat.14.30#05=NKO",
+          "text": "ἰσχυρὸν",
+          "gloss": "charging"
+        }
+      ]
+    },
+    "unavailableGlosses": {
+      "count": 317,
+      "sample": [
+        {
+          "ref": "MAT 3:15!7",
+          "text": "αὐτόν",
+          "lemma": "αὐτός",
+          "grammar": "P-ASM"
+        },
+        {
+          "ref": "MAT 5:18!6",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 5:18!25",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 5:22!18",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 5:22!30",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 8:8!1",
+          "text": "καὶ",
+          "lemma": "καί",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 8:18!6",
+          "text": "ὄχλους",
+          "lemma": "ὄχλος",
+          "grammar": "N-APM"
+        },
+        {
+          "ref": "MAT 9:4!9",
+          "text": "Ἱνατί",
+          "lemma": "ἱνατί",
+          "grammar": "ADV"
+        },
+        {
+          "ref": "MAT 9:18!8",
+          "text": "ἐλθὼν",
+          "lemma": "ἔρχομαι",
+          "grammar": "V-AAP-NSM"
+        },
+        {
+          "ref": "MAT 9:27!15",
+          "text": "υἱὲ",
+          "lemma": "υἱός",
+          "grammar": "N-VSM"
+        },
+        {
+          "ref": "MAT 10:11!4",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 10:11!18",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 12:10!15",
+          "text": "θεραπεύειν",
+          "lemma": "θεραπεύω",
+          "grammar": "V-PAN"
+        },
+        {
+          "ref": "MAT 13:30!4",
+          "text": "μέχρι",
+          "lemma": "μέχρι(ς)",
+          "grammar": "PREP"
+        },
+        {
+          "ref": "MAT 13:40!8",
+          "text": "καίεται",
+          "lemma": "καίω",
+          "grammar": "V-PPI-3S"
+        },
+        {
+          "ref": "MAT 16:8!14",
+          "text": "ἐλάβετε",
+          "lemma": "λαμβάνω",
+          "grammar": "V-AAI-2P"
+        },
+        {
+          "ref": "MAT 16:20!2",
+          "text": "διεστείλατο",
+          "lemma": "διαστέλλομαι",
+          "grammar": "V-AMI-3S"
+        },
+        {
+          "ref": "MAT 18:6!19",
+          "text": "εἰς",
+          "lemma": "εἰς",
+          "grammar": "PREP"
+        },
+        {
+          "ref": "MAT 18:30!12",
+          "text": "οὗ",
+          "lemma": "ὅς",
+          "grammar": "R-GSM"
+        },
+        {
+          "ref": "MAT 19:7!12",
+          "text": "αὐτήν",
+          "lemma": "ἑαυτοῦ",
+          "grammar": "P-ASF"
+        },
+        {
+          "ref": "MAT 19:9!18",
+          "text": "καὶ",
+          "lemma": "καί",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 19:9!22",
+          "text": "μοιχᾶται",
+          "lemma": "μοιχάομαι",
+          "grammar": "V-PMI-3S"
+        },
+        {
+          "ref": "MAT 19:18!7",
+          "text": "εἶπεν",
+          "lemma": "λέγω",
+          "grammar": "V-AAI-3S"
+        },
+        {
+          "ref": "MAT 19:28!29",
+          "text": "ὑμεῖς",
+          "lemma": "σύ",
+          "grammar": "P-NP-"
+        },
+        {
+          "ref": "MAT 19:29!16",
+          "text": "ἢ",
+          "lemma": "ἤ",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 20:17!1",
+          "text": "Καὶ",
+          "lemma": "καί",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 20:20!17",
+          "text": "παρʼ",
+          "lemma": "παρά",
+          "grammar": "PREP"
+        },
+        {
+          "ref": "MAT 20:21!20",
+          "text": "σου",
+          "lemma": "σύ",
+          "grammar": "P-GS-"
+        },
+        {
+          "ref": "MAT 20:26!3",
+          "text": "ἔσται",
+          "lemma": "εἰμί",
+          "grammar": "V-FMI-3S"
+        },
+        {
+          "ref": "MAT 20:26!8",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 21:29!8",
+          "text": "δὲ",
+          "lemma": "δέ",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 23:4!2",
+          "text": "δὲ",
+          "lemma": "δέ",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 23:16!8",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 23:16!17",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 23:18!3",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 23:18!12",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 23:26!9",
+          "text": "καὶ",
+          "lemma": "καί",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MAT 24:16!7",
+          "text": "ἐπὶ",
+          "lemma": "ἐπί",
+          "grammar": "PREP"
+        },
+        {
+          "ref": "MAT 24:43!15",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 24:43!18",
+          "text": "ἂν",
+          "lemma": "ἄν",
+          "grammar": "PRT"
+        },
+        {
+          "ref": "MAT 27:17!12",
+          "text": "Ἰησοῦν",
+          "lemma": "Ἰησοῦς",
+          "grammar": "N-ASM"
+        },
+        {
+          "ref": "MAT 27:41!2",
+          "text": "καὶ",
+          "lemma": "καί",
+          "grammar": "ADV"
+        },
+        {
+          "ref": "MAT 27:46!22",
+          "text": "ἱνατί",
+          "lemma": "ἱνατί",
+          "grammar": "ADV"
+        },
+        {
+          "ref": "MRK 1:8!9",
+          "text": "ἐν",
+          "lemma": "ἐν",
+          "grammar": "PREP"
+        },
+        {
+          "ref": "MRK 1:32!5",
+          "text": "ἔδυ",
+          "lemma": "δύνω",
+          "grammar": "V-AAI-3S"
+        },
+        {
+          "ref": "MRK 1:41!2",
+          "text": "ὀργισθεὶς",
+          "lemma": "ὀργίζομαι",
+          "grammar": "V-APP-NSM"
+        },
+        {
+          "ref": "MRK 3:4!7",
+          "text": "ἀγαθοποιῆσαι",
+          "lemma": "ἀγαθοποιέω",
+          "grammar": "V-AAN"
+        },
+        {
+          "ref": "MRK 3:22!9",
+          "text": "ὅτι",
+          "lemma": "ὅτι",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MRK 3:22!13",
+          "text": "ὅτι",
+          "lemma": "ὅτι",
+          "grammar": "CONJ"
+        },
+        {
+          "ref": "MRK 3:33!10",
+          "text": "ἢ",
+          "lemma": "ἤ",
+          "grammar": "CONJ"
+        }
+      ]
+    },
+    "unconfirmedPronunciations": [],
+    "books": [
+      {
+        "id": "MAT",
+        "chapters": 28,
+        "words": 18329
+      },
+      {
+        "id": "MRK",
+        "chapters": 16,
+        "words": 11286
+      },
+      {
+        "id": "LUK",
+        "chapters": 24,
+        "words": 19446
+      },
+      {
+        "id": "JHN",
+        "chapters": 21,
+        "words": 15625
+      },
+      {
+        "id": "ACT",
+        "chapters": 28,
+        "words": 18412
+      },
+      {
+        "id": "ROM",
+        "chapters": 16,
+        "words": 7055
+      },
+      {
+        "id": "1CO",
+        "chapters": 16,
+        "words": 6812
+      },
+      {
+        "id": "2CO",
+        "chapters": 13,
+        "words": 4473
+      },
+      {
+        "id": "GAL",
+        "chapters": 6,
+        "words": 2226
+      },
+      {
+        "id": "EPH",
+        "chapters": 6,
+        "words": 2416
+      },
+      {
+        "id": "PHP",
+        "chapters": 4,
+        "words": 1626
+      },
+      {
+        "id": "COL",
+        "chapters": 4,
+        "words": 1580
+      },
+      {
+        "id": "1TH",
+        "chapters": 5,
+        "words": 1473
+      },
+      {
+        "id": "2TH",
+        "chapters": 3,
+        "words": 820
+      },
+      {
+        "id": "1TI",
+        "chapters": 6,
+        "words": 1591
+      },
+      {
+        "id": "2TI",
+        "chapters": 4,
+        "words": 1235
+      },
+      {
+        "id": "TIT",
+        "chapters": 3,
+        "words": 659
+      },
+      {
+        "id": "PHM",
+        "chapters": 1,
+        "words": 334
+      },
+      {
+        "id": "HEB",
+        "chapters": 13,
+        "words": 4935
+      },
+      {
+        "id": "JAS",
+        "chapters": 5,
+        "words": 1739
+      },
+      {
+        "id": "1PE",
+        "chapters": 5,
+        "words": 1678
+      },
+      {
+        "id": "2PE",
+        "chapters": 3,
+        "words": 1098
+      },
+      {
+        "id": "1JN",
+        "chapters": 5,
+        "words": 2137
+      },
+      {
+        "id": "2JN",
+        "chapters": 1,
+        "words": 245
+      },
+      {
+        "id": "3JN",
+        "chapters": 1,
+        "words": 219
+      },
+      {
+        "id": "JUD",
+        "chapters": 1,
+        "words": 459
+      },
+      {
+        "id": "REV",
+        "chapters": 22,
+        "words": 9833
+      }
+    ],
+    "counts": {
+      "gloss:reviewed": 5252,
+      "gloss:source-aligned": 132172,
+      "gloss:unavailable": 317,
+      "maculaGlossMissing": 6294,
+      "maculaPlaceholdersRejected": 5464,
+      "multipleWrittenAccents": 1087,
+      "pronunciation:written-accent": 137741,
+      "reviewedArticleMarkers": 5252,
+      "withoutWrittenAccent": 17691,
+      "words": 137741
+    },
+    "sourceVerses": 7939,
+    "policy": "Exact verse/index alignment; punctuation ignored; 25 reviewed surface differences. A missing/placeholder gloss whose class=det, lemma=ὁ, and morph=T-* is a reviewed grammatical marker '(article: the)', never claimed as a contextual translation. STEP fallback requires unique same-accented-form and lemma in the same verse. Other missing meanings stay unavailable; no dictionary or generated contextual-gloss fallback. Source original text and accents remain unchanged."
+  }
+}

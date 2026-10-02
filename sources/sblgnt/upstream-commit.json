@@ -1,0 +1,286 @@
+{
+  "sha": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "node_id": "C_kwDOIpNqctoAKGM0ZDI0MWE5YzFjNDc5YTU1Yjk4OWJhMzVhNDk3NmMxZDBiODA1MmM",
+  "commit": {
+    "author": {
+      "name": "Bradley Grainger",
+      "email": "bradley.grainger@logos.com",
+      "date": "2025-01-19T20:45:10Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-01-19T20:45:10Z"
+    },
+    "message": "Merge pull request #4 from schierlm/whitespace-fixes\n\nSmall whitespace fixes.",
+    "tree": {
+      "sha": "1237db9d579eb13457157ca266a6f822dd4353b9",
+      "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/trees/1237db9d579eb13457157ca266a6f822dd4353b9"
+    },
+    "url": "https://api.github.com/repos/Faithlife/SBLGNT/git/commits/c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnjWRWCRC1aQ7uu5UhlAAAmikQACo5jhxGpx8Z9HQmSHf9smIy\n+bB4+lQrenyqI44Vx3Ipglq95gyfYoqXtPBDBFgjLiBzk8fQbf0EydRxcHXMuKhu\njrFcGLBswYv3hIlGMJk8KqzAHdOVeUBAAoYoisKkHw0mR69adRFKJ4ePhnC6r3Gs\n803l2ptaoQTS+3BAmb0EdfGNgJy0kGFtQbG1IC/CJSLEefDtTnU1KDxi3u5TRN/O\nPhH+iE6f0cnpXX0kl50k+VwF71n4pP0/wU2FKAKdCKplwMhdwovFjH8dxL9aJ4Z0\nICV9sPuviZPij6gLEodtl1ISamGLF02/eFPtsOThPcYfbKaUSUTu8c11ZxO0Ikng\nIboMGla+9baKXZD9+qhEZ8K44aeHD7WRYpRw6NdfBUZcLF16ED7Kn0OHQps7NBzm\nSJEciYWVZKDzjy5VDHUA14P6DTZC0UAv7udfujRDHcRNdhT9XwdeAIeQFf3JqU85\nn5mnMgsxAUB/STDhoAFJhp4pnXHII+MF21fHRys9vfwv3WzQgqX5C6aTUIhQiCyQ\n4GfUwkHpkTrjG7drG67wWAJ7f6y5I1cWEhOMmAFd1yi3PDw0iAMfsYQJfopZIY5r\nDfFHZ1Em6x73/cCKwrIutuuZHqTiIK/MF91pybx3FsOpOhQuNxxGnTn5ZtM/qjz7\nu+TEvplD7aqjvfIWi9IU\n=T5ez\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 1237db9d579eb13457157ca266a6f822dd4353b9\nparent 4025c2dafe0b1d12799eb8a3e43e2e6137a9253a\nparent 510a756b3e3d659df3364685afa3d554bf3f32b0\nauthor Bradley Grainger <bradley.grainger@logos.com> 1737319510 -0800\ncommitter GitHub <noreply@github.com> 1737319510 -0800\n\nMerge pull request #4 from schierlm/whitespace-fixes\n\nSmall whitespace fixes.",
+      "verified_at": "2025-01-19T20:46:09Z"
+    }
+  },
+  "url": "https://api.github.com/repos/Faithlife/SBLGNT/commits/c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "html_url": "https://github.com/Faithlife/SBLGNT/commit/c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+  "comments_url": "https://api.github.com/repos/Faithlife/SBLGNT/commits/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/comments",
+  "author": {
+    "login": "bgrainger",
+    "id": 188129,
+    "node_id": "MDQ6VXNlcjE4ODEyOQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/188129?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bgrainger",
+    "html_url": "https://github.com/bgrainger",
+    "followers_url": "https://api.github.com/users/bgrainger/followers",
+    "following_url": "https://api.github.com/users/bgrainger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bgrainger/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bgrainger/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bgrainger/subscriptions",
+    "organizations_url": "https://api.github.com/users/bgrainger/orgs",
+    "repos_url": "https://api.github.com/users/bgrainger/repos",
+    "events_url": "https://api.github.com/users/bgrainger/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bgrainger/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4025c2dafe0b1d12799eb8a3e43e2e6137a9253a",
+      "url": "https://api.github.com/repos/Faithlife/SBLGNT/commits/4025c2dafe0b1d12799eb8a3e43e2e6137a9253a",
+      "html_url": "https://github.com/Faithlife/SBLGNT/commit/4025c2dafe0b1d12799eb8a3e43e2e6137a9253a"
+    },
+    {
+      "sha": "510a756b3e3d659df3364685afa3d554bf3f32b0",
+      "url": "https://api.github.com/repos/Faithlife/SBLGNT/commits/510a756b3e3d659df3364685afa3d554bf3f32b0",
+      "html_url": "https://github.com/Faithlife/SBLGNT/commit/510a756b3e3d659df3364685afa3d554bf3f32b0"
+    }
+  ],
+  "stats": {
+    "total": 56,
+    "additions": 28,
+    "deletions": 28
+  },
+  "files": [
+    {
+      "sha": "267551240a76cf656bbc215701b760ec75e4947c",
+      "filename": "data/sblgntapp/text/1Cor.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F1Cor.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F1Cor.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2F1Cor.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -620,7 +620,7 @@\n • Ὄντως ὁ θεὸς WH Treg NA28 ] Ὁ θεὸς ὄντως RP\n \n 1 Corinthians 14:26\n-26 ἕκαστος WH Treg NA28 ] +ὑμῶν RP \n+26 ἕκαστος WH Treg NA28 ] + ὑμῶν RP \n • ἀποκάλυψιν ἔχει γλῶσσαν WH Treg NA28 ] γλῶσσαν ἀποκάλυψιν ἔχει RP\n \n 1 Corinthians 14:28"
+    },
+    {
+      "sha": "3115721dfe86de219a19e2dfb029263a7683276b",
+      "filename": "data/sblgntapp/text/1John.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F1John.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F1John.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2F1John.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -117,7 +117,7 @@\n \n 1 John 4:15\n 15 ἐὰν WH NA28 ] ἂν Treg RP \n-• Ἰησοῦς Treg NA28 RP ] +Χριστός WH\n+• Ἰησοῦς Treg NA28 RP ] + Χριστός WH\n \n 1 John 4:16\n 16 μένει WH NA28 RP ] – Treg"
+    },
+    {
+      "sha": "9524327cb97a8c09e7e15e59d632e2c1d594d282",
+      "filename": "data/sblgntapp/text/2Cor.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F2Cor.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2F2Cor.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2F2Cor.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -78,7 +78,7 @@\n 2 Corinthians 3:1\n 3:1 συνιστάνειν WH NA28 RP ] συνιστᾶν Treg \n • ἢ WH Treg NA28 ] Εἰ RP \n-• ὑμῶν WH Treg NA28 ] +συστατικῶν RP\n+• ὑμῶν WH Treg NA28 ] + συστατικῶν RP\n \n 2 Corinthians 3:5\n 5 ἀφʼ ἑαυτῶν ἱκανοί ἐσμεν WH Treg NA28 ] ἱκανοί ἐσμεν ἀφʼ ἑαυτῶν RP "
+    },
+    {
+      "sha": "6385d866ff53efc1b912ea7f90af5682851e019d",
+      "filename": "data/sblgntapp/text/Acts.txt",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FActs.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FActs.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2FActs.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -1442,7 +1442,7 @@ Acts 17:11\n 11 τὸ WH RP ] – Treg NA28\n \n Acts 17:13\n-13 καὶ ταράσσοντες WH Treg NA28 ] –RP\n+13 καὶ ταράσσοντες WH Treg NA28 ] – RP\n \n Acts 17:14\n 14 ἕως WH Treg NA28 ] ὡς RP \n@@ -2342,7 +2342,7 @@ Acts 27:35\n 35 εἴπας WH Treg NA28 ] Εἰπὼν RP\n \n Acts 27:37\n-37 αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳWH Treg NA28 ] ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί RP \n+37 αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳ WH Treg NA28 ] ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί RP \n • διακόσιαι Treg NA28 RP ] ὡς WH\n \n Acts 27:38"
+    },
+    {
+      "sha": "54e29f6691481619729dfcbab8591170228d0306",
+      "filename": "data/sblgntapp/text/Luke.txt",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FLuke.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FLuke.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2FLuke.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -450,7 +450,7 @@ Luke 6:1\n • καὶ ἤσθιον τοὺς στάχυας WH Treg NA28 ] τοὺς στάχυας καὶ ἤσθιον RP\n \n Luke 6:2\n-2 εἶπαν WH Treg NA28 ] +αὐτοῖς RP \n+2 εἶπαν WH Treg NA28 ] + αὐτοῖς RP \n • ἔξεστιν WH Treg NA28 ] + ποιεῖν ἐν RP\n \n Luke 6:3\n@@ -1592,7 +1592,7 @@ Luke 15:29\n 29 αὐτοῦ WH Treg NA28 ] – RP\n \n Luke 15:30\n-30 μετὰ WH NA28 RP ] +τῶν Treg \n+30 μετὰ WH NA28 RP ] + τῶν Treg \n • σιτευτὸν μόσχον WH Treg NA28 ] μόσχον τὸν σιτευτόν RP\n \n Luke 15:32\n@@ -2476,7 +2476,7 @@ Luke 24:7\n 7 τὸν … ἀνθρώπου ὅτι δεῖ WH Treg NA28 ] ὅτι δεῖ τὸν … ἀνθρώπου RP\n \n Luke 24:10\n-10 ἡ WH Treg NA28 ] –RP \n+10 ἡ WH Treg NA28 ] – RP \n • ἔλεγον WH Treg NA28 ] αἳ ἔλεγον RP\n \n Luke 24:11"
+    },
+    {
+      "sha": "555e566073d8587959e227343ca8f55b433ccf35",
+      "filename": "data/sblgntapp/text/Mark.txt",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FMark.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FMark.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2FMark.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -859,7 +859,7 @@ Mark 8:1\n • μαθητὰς WH Treg NA28 ] + αὐτοῦ RP\n \n Mark 8:3\n-3 καί τινεςWH Treg NA28 ] τινὲς γὰρ RP \n+3 καί τινες WH Treg NA28 ] τινὲς γὰρ RP \n • ἀπὸ WH Treg NA28 ] – RP \n • ἥκασιν Treg NA28 ] εἰσίν WH; ἥκουσιν RP\n \n@@ -1166,7 +1166,7 @@ Mark 10:20\n \n Mark 10:21\n 21 σε WH NA28 ] σοι Treg RP \n-• τοῖς WH NA28 ] Treg RP \n+• τοῖς WH NA28 ] – Treg RP \n • μοι WH Treg NA28 ] + ἄρας τὸν σταυρόν RP\n \n Mark 10:24\n@@ -1428,7 +1428,7 @@ Mark 12:22\n • καὶ ἡ γυνὴ ἀπέθανεν WH Treg NA28 ] ἀπέθανεν καὶ ἡ γυνή RP\n \n Mark 12:23\n-23 ὅταν ἀναστῶσιν RP NA28 ] –WH Treg NIV\n+23 ὅταν ἀναστῶσιν RP NA28 ] – WH Treg NIV\n \n Mark 12:24\n 24 ἔφη αὐτοῖς ὁ Ἰησοῦς WH Treg NA28 ] Καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς RP\n@@ -1939,7 +1939,7 @@ Mark 16:18\n 18 ὄφεις RP ] καὶ ἐν ταῖς χερσὶν ὄφεις ⟦WH⟧ Treg NA28\n \n Mark 16:19\n-19 Ἰησοῦς ⟦WH⟧ Treg NA28 ] –RP\n+19 Ἰησοῦς ⟦WH⟧ Treg NA28 ] – RP\n \n Mark 16:20\n 20 σημείων ⟦WH⟧ Treg NA28 ] + Ἀμήν RP"
+    },
+    {
+      "sha": "65e3185eae3d0a06d863f8e604c6f05578f5b374",
+      "filename": "data/sblgntapp/text/Matt.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FMatt.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FMatt.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2FMatt.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -926,7 +926,7 @@ Matthew 17:2\n \n Matthew 17:3\n 3 ὤφθη WH Treg NA28 ] ὤφθησαν RP \n-• συλλαλοῦντες μετʼαὐτοῦ WH Treg NA28 ] μετʼαὐτοῦ συλλαλοῦντες RP\n+• συλλαλοῦντες μετʼ αὐτοῦ WH Treg NA28 ] μετʼ αὐτοῦ συλλαλοῦντες RP\n \n Matthew 17:4\n 4 ποιήσω WH NA28 ] ποιήσωμεν Treg RP "
+    },
+    {
+      "sha": "231bdbe78cef3a64adbfa45be5837ee20838669f",
+      "filename": "data/sblgntapp/text/Rev.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FRev.txt",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Ftext%2FRev.txt",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Ftext%2FRev.txt?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -223,7 +223,7 @@ Revelation 5:12\n 12 καὶ WH Treg NA28 ] + τὸν RP\n \n Revelation 5:13\n-13 θαλάσσης Treg NA28 ] +ἐστίν WH RP \n+13 θαλάσσης Treg NA28 ] + ἐστίν WH RP \n • πάντα WH Treg NA28 ] πάντας RP \n • τῷ θρόνῳ NA28 ] τοῦ θρόνου WH Treg RP \n • αἰώνων WH Treg NA28 ] + Ἀμήν RP"
+    },
+    {
+      "sha": "9dcdb03c4e1567a1ea358ae596b05c26a01768ef",
+      "filename": "data/sblgntapp/xml/1Cor.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F1Cor.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F1Cor.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2F1Cor.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -621,7 +621,7 @@\n <note>• Ὄντως ὁ θεὸς WH Treg NA28 ] Ὁ θεὸς ὄντως RP</note>\n \n <verse>1 Corinthians 14:26</verse>\n-<note>26 ἕκαστος WH Treg NA28 ] +ὑμῶν RP </note>\n+<note>26 ἕκαστος WH Treg NA28 ] + ὑμῶν RP </note>\n <note>• ἀποκάλυψιν ἔχει γλῶσσαν WH Treg NA28 ] γλῶσσαν ἀποκάλυψιν ἔχει RP</note>\n \n <verse>1 Corinthians 14:28</verse>"
+    },
+    {
+      "sha": "338906bcfc66684542bfae2503f5cc71ce459b50",
+      "filename": "data/sblgntapp/xml/1John.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F1John.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F1John.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2F1John.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -118,7 +118,7 @@\n \n <verse>1 John 4:15</verse>\n <note>15 ἐὰν WH NA28 ] ἂν Treg RP </note>\n-<note>• Ἰησοῦς Treg NA28 RP ] +Χριστός WH</note>\n+<note>• Ἰησοῦς Treg NA28 RP ] + Χριστός WH</note>\n \n <verse>1 John 4:16</verse>\n <note>16 μένει WH NA28 RP ] – Treg</note>"
+    },
+    {
+      "sha": "61defef8ff53ea2c2747939220dd72b7cd0ee899",
+      "filename": "data/sblgntapp/xml/2Cor.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F2Cor.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2F2Cor.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2F2Cor.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -79,7 +79,7 @@\n <verse>2 Corinthians 3:1</verse>\n <note>3:1 συνιστάνειν WH NA28 RP ] συνιστᾶν Treg </note>\n <note>• ἢ WH Treg NA28 ] Εἰ RP </note>\n-<note>• ὑμῶν WH Treg NA28 ] +συστατικῶν RP</note>\n+<note>• ὑμῶν WH Treg NA28 ] + συστατικῶν RP</note>\n \n <verse>2 Corinthians 3:5</verse>\n <note>5 ἀφʼ ἑαυτῶν ἱκανοί ἐσμεν WH Treg NA28 ] ἱκανοί ἐσμεν ἀφʼ ἑαυτῶν RP </note>"
+    },
+    {
+      "sha": "6837838bb3314942f9d63b5e1c0d8cabe305e0b4",
+      "filename": "data/sblgntapp/xml/Acts.xml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FActs.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FActs.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2FActs.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -1443,7 +1443,7 @@\n <note>11 τὸ WH RP ] – Treg NA28</note>\n \n <verse>Acts 17:13</verse>\n-<note>13 καὶ ταράσσοντες WH Treg NA28 ] –RP</note>\n+<note>13 καὶ ταράσσοντες WH Treg NA28 ] – RP</note>\n \n <verse>Acts 17:14</verse>\n <note>14 ἕως WH Treg NA28 ] ὡς RP </note>\n@@ -2343,7 +2343,7 @@\n <note>35 εἴπας WH Treg NA28 ] Εἰπὼν RP</note>\n \n <verse>Acts 27:37</verse>\n-<note>37 αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳWH Treg NA28 ] ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί RP </note>\n+<note>37 αἱ πᾶσαι ψυχαὶ ἐν τῷ πλοίῳ WH Treg NA28 ] ἐν τῷ πλοίῳ αἱ πᾶσαι ψυχαί RP </note>\n <note>• διακόσιαι Treg NA28 RP ] ὡς WH</note>\n \n <verse>Acts 27:38</verse>"
+    },
+    {
+      "sha": "e6b30f10d1ecb0538097e27b6b415b65d76a2234",
+      "filename": "data/sblgntapp/xml/Luke.xml",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FLuke.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FLuke.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2FLuke.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -451,7 +451,7 @@\n <note>• καὶ ἤσθιον τοὺς στάχυας WH Treg NA28 ] τοὺς στάχυας καὶ ἤσθιον RP</note>\n \n <verse>Luke 6:2</verse>\n-<note>2 εἶπαν WH Treg NA28 ] +αὐτοῖς RP </note>\n+<note>2 εἶπαν WH Treg NA28 ] + αὐτοῖς RP </note>\n <note>• ἔξεστιν WH Treg NA28 ] + ποιεῖν ἐν RP</note>\n \n <verse>Luke 6:3</verse>\n@@ -1593,7 +1593,7 @@\n <note>29 αὐτοῦ WH Treg NA28 ] – RP</note>\n \n <verse>Luke 15:30</verse>\n-<note>30 μετὰ WH NA28 RP ] +τῶν Treg </note>\n+<note>30 μετὰ WH NA28 RP ] + τῶν Treg </note>\n <note>• σιτευτὸν μόσχον WH Treg NA28 ] μόσχον τὸν σιτευτόν RP</note>\n \n <verse>Luke 15:32</verse>\n@@ -2477,7 +2477,7 @@\n <note>7 τὸν … ἀνθρώπου ὅτι δεῖ WH Treg NA28 ] ὅτι δεῖ τὸν … ἀνθρώπου RP</note>\n \n <verse>Luke 24:10</verse>\n-<note>10 ἡ WH Treg NA28 ] –RP </note>\n+<note>10 ἡ WH Treg NA28 ] – RP </note>\n <note>• ἔλεγον WH Treg NA28 ] αἳ ἔλεγον RP</note>\n \n <verse>Luke 24:11</verse>"
+    },
+    {
+      "sha": "2c0cc40dfcbc70e7a29d365aedab3b2675014d42",
+      "filename": "data/sblgntapp/xml/Mark.xml",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FMark.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FMark.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2FMark.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -860,7 +860,7 @@\n <note>• μαθητὰς WH Treg NA28 ] + αὐτοῦ RP</note>\n \n <verse>Mark 8:3</verse>\n-<note>3 καί τινεςWH Treg NA28 ] τινὲς γὰρ RP </note>\n+<note>3 καί τινες WH Treg NA28 ] τινὲς γὰρ RP </note>\n <note>• ἀπὸ WH Treg NA28 ] – RP </note>\n <note>• ἥκασιν Treg NA28 ] εἰσίν WH; ἥκουσιν RP</note>\n \n@@ -1167,7 +1167,7 @@\n \n <verse>Mark 10:21</verse>\n <note>21 σε WH NA28 ] σοι Treg RP </note>\n-<note>• τοῖς WH NA28 ] Treg RP </note>\n+<note>• τοῖς WH NA28 ] – Treg RP </note>\n <note>• μοι WH Treg NA28 ] + ἄρας τὸν σταυρόν RP</note>\n \n <verse>Mark 10:24</verse>\n@@ -1429,7 +1429,7 @@\n <note>• καὶ ἡ γυνὴ ἀπέθανεν WH Treg NA28 ] ἀπέθανεν καὶ ἡ γυνή RP</note>\n \n <verse>Mark 12:23</verse>\n-<note>23 ὅταν ἀναστῶσιν RP NA28 ] –WH Treg NIV</note>\n+<note>23 ὅταν ἀναστῶσιν RP NA28 ] – WH Treg NIV</note>\n \n <verse>Mark 12:24</verse>\n <note>24 ἔφη αὐτοῖς ὁ Ἰησοῦς WH Treg NA28 ] Καὶ ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς RP</note>\n@@ -1940,7 +1940,7 @@\n <note>18 ὄφεις RP ] καὶ ἐν ταῖς χερσὶν ὄφεις ⟦WH⟧ Treg NA28</note>\n \n <verse>Mark 16:19</verse>\n-<note>19 Ἰησοῦς ⟦WH⟧ Treg NA28 ] –RP</note>\n+<note>19 Ἰησοῦς ⟦WH⟧ Treg NA28 ] – RP</note>\n \n <verse>Mark 16:20</verse>\n <note>20 σημείων ⟦WH⟧ Treg NA28 ] + Ἀμήν RP</note>"
+    },
+    {
+      "sha": "e29c170ac87ede5a0c3053cb616c554bb7fa1c24",
+      "filename": "data/sblgntapp/xml/Matt.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FMatt.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FMatt.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2FMatt.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -927,7 +927,7 @@\n \n <verse>Matthew 17:3</verse>\n <note>3 ὤφθη WH Treg NA28 ] ὤφθησαν RP </note>\n-<note>• συλλαλοῦντες μετʼαὐτοῦ WH Treg NA28 ] μετʼαὐτοῦ συλλαλοῦντες RP</note>\n+<note>• συλλαλοῦντες μετʼ αὐτοῦ WH Treg NA28 ] μετʼ αὐτοῦ συλλαλοῦντες RP</note>\n \n <verse>Matthew 17:4</verse>\n <note>4 ποιήσω WH NA28 ] ποιήσωμεν Treg RP </note>"
+    },
+    {
+      "sha": "8bfa811028d3ff22b8d7a7f97fa14856845a4224",
+      "filename": "data/sblgntapp/xml/Rev.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Faithlife/SBLGNT/blob/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FRev.xml",
+      "raw_url": "https://github.com/Faithlife/SBLGNT/raw/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data%2Fsblgntapp%2Fxml%2FRev.xml",
+      "contents_url": "https://api.github.com/repos/Faithlife/SBLGNT/contents/data%2Fsblgntapp%2Fxml%2FRev.xml?ref=c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "patch": "@@ -224,7 +224,7 @@\n <note>12 καὶ WH Treg NA28 ] + τὸν RP</note>\n \n <verse>Revelation 5:13</verse>\n-<note>13 θαλάσσης Treg NA28 ] +ἐστίν WH RP </note>\n+<note>13 θαλάσσης Treg NA28 ] + ἐστίν WH RP </note>\n <note>• πάντα WH Treg NA28 ] πάντας RP </note>\n <note>• τῷ θρόνῳ NA28 ] τοῦ θρόνου WH Treg RP </note>\n <note>• αἰώνων WH Treg NA28 ] + Ἀμήν RP</note>"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "maculaCommit": "8423afe47b9e8f24b7772e808af45c7159a6fe7e",
+  "stepCommit": "b99716b0cddb648ddb95cc786a197180f2f97d48",
+  "greekAccentuationCommit": "15ac5fd1cc82c8f9b91a4041f9b64399c9552097",
+  "files": [
+    {
+      "file": "sources/aids/greek/macula-sblgnt.tsv",
+      "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/SBLGNT/tsv/macula-greek-SBLGNT.tsv",
+      "sha256": "7f71504fdee8659bdd9f85342e4103d645864c2851b8205915bb298f0c004cc5",
+      "bytes": 20843282
+    },
+    {
+      "file": "sources/aids/greek/MACULA-LICENSE.md",
+      "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/LICENSE.md",
+      "sha256": "41b49a2387b628a7bc772ddfae3a8af9dd8f4d4470b27b6132f6da6c73e4a557",
+      "bytes": 3573
+    },
+    {
+      "file": "sources/aids/greek/MACULA-SBLGNT-README.md",
+      "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/SBLGNT/README.md",
+      "sha256": "eb104d654e1adb1ce8190db1ff79d6364b40a1a5b3dd47f43c137189ba928946",
+      "bytes": 3787
+    },
+    {
+      "file": "sources/aids/greek/STEP-README.md",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/b99716b0cddb648ddb95cc786a197180f2f97d48/README.md",
+      "sha256": "261d5157c0ffeadeedad3f734db945a4c3642e3e4ce5fa28002985b6c52437b1",
+      "bytes": 14495
+    },
+    {
+      "file": "sources/aids/greek/TAGNT-Mat-Jhn.txt",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/b99716b0cddb648ddb95cc786a197180f2f97d48/Translators%20Amalgamated%20OT%2BNT/TAGNT%20Mat-Jhn%20-%20Translators%20Amalgamated%20Greek%20NT%20-%20STEPBible.org%20CC-BY.txt",
+      "sha256": "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e",
+      "bytes": 14189032
+    },
+    {
+      "file": "sources/aids/greek/TAGNT-Act-Rev.txt",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/b99716b0cddb648ddb95cc786a197180f2f97d48/Translators%20Amalgamated%20OT%2BNT/TAGNT%20Act-Rev%20-%20Translators%20Amalgamated%20Greek%20NT%20-%20STEPBible.org%20CC-BY.txt",
+      "sha256": "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7",
+      "bytes": 15939932
+    },
+    {
+      "file": "scripts/greek-aids/greek_accentuation/__init__.py",
+      "url": "https://raw.githubusercontent.com/jtauber/greek-accentuation/15ac5fd1cc82c8f9b91a4041f9b64399c9552097/greek_accentuation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "scripts/greek-aids/greek_accentuation/characters.py",
+      "url": "https://raw.githubusercontent.com/jtauber/greek-accentuation/15ac5fd1cc82c8f9b91a4041f9b64399c9552097/greek_accentuation/characters.py",
+      "sha256": "1315ec73851f16559aba4a7a651f3ff48afe6fdaa9c7bacc99c247294dc4d93c",
+      "bytes": 3059
+    },
+    {
+      "file": "scripts/greek-aids/greek_accentuation/syllabify.py",
+      "url": "https://raw.githubusercontent.com/jtauber/greek-accentuation/15ac5fd1cc82c8f9b91a4041f9b64399c9552097/greek_accentuation/syllabify.py",
+      "sha256": "78d3eaf6386c403070242f3552787a2a515563545a9b7f7e3b6692e7c2afd69d",
+      "bytes": 8340
+    },
+    {
+      "file": "scripts/greek-aids/greek_accentuation/accentuation.py",
+      "url": "https://raw.githubusercontent.com/jtauber/greek-accentuation/15ac5fd1cc82c8f9b91a4041f9b64399c9552097/greek_accentuation/accentuation.py",
+      "sha256": "419dcc295b337d19b35cbdfefa83ad2186c68670f4176525b7918ccb677a02b3",
+      "bytes": 6108
+    },
+    {
+      "file": "sources/aids/greek/greek-accentuation-LICENSE",
+      "url": "https://raw.githubusercontent.com/jtauber/greek-accentuation/15ac5fd1cc82c8f9b91a4041f9b64399c9552097/LICENSE",
+      "sha256": "030ec90491c16a1f6c6eda9ed5b648441cb0c79d3bf3f20c61f76ca0b60fb2e1",
+      "bytes": 1086
+    }
+  ]
+}

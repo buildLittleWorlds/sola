@@ -1,0 +1,20 @@
+{
+  "GEN.38/1:2": {
+    "text": "הַהִ֔וא",
+    "issueId": "HEB-003",
+    "reason": "Feminine הִוא is qere perpetuum for הִיא: read ha-HI (hee), with no consonantal v or w. The zaqef qaton marks the second syllable. The Hebrew source spelling is preserved.",
+    "evidence": [
+      "https://en.wikisource.org/wiki/Gesenius%27_Hebrew_Grammar/32._The_Personal_Pronoun._The_Separate_Pronoun#GHGpar-32-l",
+      "UXLC GEN.38/1:2: הַהִ֔וא; accent on הִ."
+    ],
+    "pronunciation": {
+      "syllables": [
+        "ha",
+        "hi"
+      ],
+      "stressed": [
+        1
+      ]
+    }
+  }
+}

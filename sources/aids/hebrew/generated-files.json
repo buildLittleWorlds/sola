@@ -1,0 +1,239 @@
+{
+  "corpusHash": "c81a17500cfab313737bc0ffe3c4338f03cd947a9c2961fe33927ab944d43f37",
+  "files": [
+    {
+      "bookId": "GEN",
+      "file": "public/aids/GEN.json",
+      "bytes": 7021152,
+      "sha256": "ca6104d0fa91a6aee6fc86c90e70f6ce8a7b857c0461723f9dd0b379e067c369"
+    },
+    {
+      "bookId": "EXO",
+      "file": "public/aids/EXO.json",
+      "bytes": 5667217,
+      "sha256": "cebf7847b98f13e1ebb3a805362d9d16ca7b5f3cb590282233292abc18060f77"
+    },
+    {
+      "bookId": "LEV",
+      "file": "public/aids/LEV.json",
+      "bytes": 4080002,
+      "sha256": "6725f2d78310e7887554dc62449ff81b67f43228b14e87615ee04e4169d39b29"
+    },
+    {
+      "bookId": "NUM",
+      "file": "public/aids/NUM.json",
+      "bytes": 5529694,
+      "sha256": "f60f2d48ed9bab6ab72fbf233383bbf4d0541f1bf788e35385cf60d190a3d48f"
+    },
+    {
+      "bookId": "DEU",
+      "file": "public/aids/DEU.json",
+      "bytes": 4894384,
+      "sha256": "c09bf62dfd8bac5bbd3c4c8913f65e7e996c84f697e560a66308bff96cc2f86e"
+    },
+    {
+      "bookId": "JOS",
+      "file": "public/aids/JOS.json",
+      "bytes": 3387441,
+      "sha256": "2488afde2abdd77376152da864ec406bc4cf04daa90a22b823b946b37ffb9bb5"
+    },
+    {
+      "bookId": "JDG",
+      "file": "public/aids/JDG.json",
+      "bytes": 3355240,
+      "sha256": "b1e83a1dc53dd7a7a7ba0f27c43b1f1156865a7a1a86149d974188cdd3114d26"
+    },
+    {
+      "bookId": "RUT",
+      "file": "public/aids/RUT.json",
+      "bytes": 442161,
+      "sha256": "0d9647d8ee778c5ddd926a7b3f17d6ded80c95a22ede3af2e7e3dc627c4a4180"
+    },
+    {
+      "bookId": "1SA",
+      "file": "public/aids/1SA.json",
+      "bytes": 4490969,
+      "sha256": "36cf29b32229f91db17749005d430d8d337d660b73b50c15b4b24263a5d7a24e"
+    },
+    {
+      "bookId": "2SA",
+      "file": "public/aids/2SA.json",
+      "bytes": 3718034,
+      "sha256": "b6249f2720c17144a4a8403735a90d35d9c39471ff797bf6662f637af73841c0"
+    },
+    {
+      "bookId": "1KI",
+      "file": "public/aids/1KI.json",
+      "bytes": 4426117,
+      "sha256": "e54a4de5ad2eaf68488a20162f85b1e7a51e33e40fc489921e9bde340c0dfb22"
+    },
+    {
+      "bookId": "2KI",
+      "file": "public/aids/2KI.json",
+      "bytes": 4141237,
+      "sha256": "082897180ca1b517f4c5e6631cdbcbe9893f2b3d8d93d4cb620fb9bd1b03b1aa"
+    },
+    {
+      "bookId": "1CH",
+      "file": "public/aids/1CH.json",
+      "bytes": 3576836,
+      "sha256": "94f3517206a18b47d8c99a48aecf8133a2fcef7134a2d187f1cdb24061e32279"
+    },
+    {
+      "bookId": "2CH",
+      "file": "public/aids/2CH.json",
+      "bytes": 4525502,
+      "sha256": "609672c7d712b39af03fb4f77021228387f301577b344b06b8f866adc3a2002c"
+    },
+    {
+      "bookId": "EZR",
+      "file": "public/aids/EZR.json",
+      "bytes": 1253479,
+      "sha256": "6909e28350849489e60919ca1591d8c4c974a583860e79f44422980a66cc2bf7"
+    },
+    {
+      "bookId": "NEH",
+      "file": "public/aids/NEH.json",
+      "bytes": 1799380,
+      "sha256": "a5837cf97f16ca0d8ae815147d794e47ae4249cdc93c58da0678c5ee462fd33d"
+    },
+    {
+      "bookId": "EST",
+      "file": "public/aids/EST.json",
+      "bytes": 1033121,
+      "sha256": "3c8225872fe263a69efd3bd02d9c0662203a15f3a50de940d8cf8ab144e727e4"
+    },
+    {
+      "bookId": "JOB",
+      "file": "public/aids/JOB.json",
+      "bytes": 2893629,
+      "sha256": "de57e6c64fa9a6672f76f9aefbe641e0d269544dd8d3c8a6d8dcf05a353e6da9"
+    },
+    {
+      "bookId": "PSA",
+      "file": "public/aids/PSA.json",
+      "bytes": 6980513,
+      "sha256": "98731059b9d91ccefd8ebd1f9c1a1c4ea58c4da973a750c2081d70bf9c7803a9"
+    },
+    {
+      "bookId": "PRO",
+      "file": "public/aids/PRO.json",
+      "bytes": 2373233,
+      "sha256": "41ce58a9ff1a7c5d4835e9809aca664ef316d7e2a9e1645de7b8d66180106efd"
+    },
+    {
+      "bookId": "ECC",
+      "file": "public/aids/ECC.json",
+      "bytes": 986595,
+      "sha256": "2e67e78ade933973e1ad4e95d2375e869ae9129f30722719d95ace5cc50a5bf0"
+    },
+    {
+      "bookId": "SNG",
+      "file": "public/aids/SNG.json",
+      "bytes": 426308,
+      "sha256": "9290c1e7fccb3e7e3c328b566cc4893f55db2e8e702d88fe5b537f414d3aa691"
+    },
+    {
+      "bookId": "ISA",
+      "file": "public/aids/ISA.json",
+      "bytes": 5678649,
+      "sha256": "67967e5ac31b9d7935f4f5031fd47aa4ec27c7f2ec85ddb48af11a2e36a4d70d"
+    },
+    {
+      "bookId": "JER",
+      "file": "public/aids/JER.json",
+      "bytes": 7295779,
+      "sha256": "ee391ab57067f0d0e387d744f65029839266b82b30fa90130d13adbe47c3aa12"
+    },
+    {
+      "bookId": "LAM",
+      "file": "public/aids/LAM.json",
+      "bytes": 508251,
+      "sha256": "bbde58a30467e79fc28db52eb58416d62950a373c9c993225a357d198abd109a"
+    },
+    {
+      "bookId": "EZK",
+      "file": "public/aids/EZK.json",
+      "bytes": 6384778,
+      "sha256": "780484a0b1c44749faa4518c8e4d1ca13fef0a561880292709bb89e3987d6517"
+    },
+    {
+      "bookId": "DAN",
+      "file": "public/aids/DAN.json",
+      "bytes": 2062447,
+      "sha256": "309f418a05f71210d9beff71aec96ca5bc74c4e3d383e206a38cf7b1e9f8b200"
+    },
+    {
+      "bookId": "HOS",
+      "file": "public/aids/HOS.json",
+      "bytes": 801422,
+      "sha256": "59034c4f6e38aa6797073dcc9370bbd319cc8546851882fb2d1864fa8970d0b3"
+    },
+    {
+      "bookId": "JOL",
+      "file": "public/aids/JOL.json",
+      "bytes": 323250,
+      "sha256": "183414c927daee561d2febc8851c8faa940530304f2a3260043e3e23b04d2c2f"
+    },
+    {
+      "bookId": "AMO",
+      "file": "public/aids/AMO.json",
+      "bytes": 674117,
+      "sha256": "82fa51ba34f1cce9922346f265875bff92e5ccc16d3f49311901c4d535185c70"
+    },
+    {
+      "bookId": "OBA",
+      "file": "public/aids/OBA.json",
+      "bytes": 98436,
+      "sha256": "6d9414dd6079f3f541b8c59d030cc28840779088ccd33201ef93e72f0a825b01"
+    },
+    {
+      "bookId": "JON",
+      "file": "public/aids/JON.json",
+      "bytes": 233997,
+      "sha256": "2d1627f8e6a286c257a86fed320852ea83a0303cde5391152be9af2fb9380fc8"
+    },
+    {
+      "bookId": "MIC",
+      "file": "public/aids/MIC.json",
+      "bytes": 467923,
+      "sha256": "89db88ed5b6315a86c5e2e91213c79594fa8ac9e0b84f35af18fd26272a4f007"
+    },
+    {
+      "bookId": "NAM",
+      "file": "public/aids/NAM.json",
+      "bytes": 189194,
+      "sha256": "db449baf30453278e9b28c71e4a63a4f19d11faa81b0bd992e7195efba9cd4a4"
+    },
+    {
+      "bookId": "HAB",
+      "file": "public/aids/HAB.json",
+      "bytes": 224460,
+      "sha256": "a23a21682c470dcc776ff6ce41b09939254e919e79db51961a046777becc6c67"
+    },
+    {
+      "bookId": "ZEP",
+      "file": "public/aids/ZEP.json",
+      "bytes": 255174,
+      "sha256": "7e7bfefa6372c1fbd0a34bb88d7c4c7d7da8d6ee5f5ad4799d3c4f0fd81ba751"
+    },
+    {
+      "bookId": "HAG",
+      "file": "public/aids/HAG.json",
+      "bytes": 199890,
+      "sha256": "50ae251e66be2709460c8efc0082566db95f2e402260f77a324f310711c24b8d"
+    },
+    {
+      "bookId": "ZEC",
+      "file": "public/aids/ZEC.json",
+      "bytes": 1051583,
+      "sha256": "302eff900e620ba266f3a0ebf3e0d91cb0f2146e60f20ad2dfbbf0d10aca84f8"
+    },
+    {
+      "bookId": "MAL",
+      "file": "public/aids/MAL.json",
+      "bytes": 291769,
+      "sha256": "8f01673de46997b1b6877b4dd628859f9330226fb3905ccf1219afb929bf8a11"
+    }
+  ]
+}

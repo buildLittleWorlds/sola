@@ -1,0 +1,201 @@
+{
+  "corpusHash": "c81a17500cfab313737bc0ffe3c4338f03cd947a9c2961fe33927ab944d43f37",
+  "corrections": {
+    "hebrew/corrections-policy.json": {
+      "kind": "documented-pronunciation-policy",
+      "implementedBy": "scripts/build-hebrew-aids.mjs",
+      "purpose": "Documents build conventions and excluded source candidates; per-token reviewed changes belong in reviewed-overrides.json.",
+      "divineName": {
+        "written": "יהוה",
+        "chosenReading": [
+          "yah",
+          "weh"
+        ],
+        "stressed": [
+          0
+        ],
+        "status": "convention",
+        "basis": "User explicitly selected Yahweh. The reading is not derived from qere vowel marks; stress follows the chosen classroom convention."
+      },
+      "blockedSourcePronunciations": [
+        {
+          "tokenId": "DAN.2/4:10",
+          "sourceRef": "Dan.2.4#10=Q(K)",
+          "candidate": "le./'av.da.yi/kh",
+          "reason": "Candidate does not follow the pointed qere לְעַבְדָ֖ךְ."
+        },
+        {
+          "tokenId": "DAN.2/41:10",
+          "sourceRef": "Dan.2.41#09=Q(K)",
+          "candidate": "u./mi.ne./hon",
+          "reason": "Candidate does not follow the pointed qere וּמִנְּהֵ֣ין."
+        },
+        {
+          "tokenId": "DAN.2/41:5",
+          "reason": "Adjacent qere retained in the conservative Daniel 2:41 review set."
+        }
+      ],
+      "notHumanReviewed": "Accent-derived records identify supported source accents with corroborated pronunciation; they are not labeled human-reviewed."
+    },
+    "hebrew/reviewed-overrides.json": {
+      "GEN.38/1:2": {
+        "text": "הַהִ֔וא",
+        "issueId": "HEB-003",
+        "reason": "Feminine הִוא is qere perpetuum for הִיא: read ha-HI (hee), with no consonantal v or w. The zaqef qaton marks the second syllable. The Hebrew source spelling is preserved.",
+        "evidence": [
+          "https://en.wikisource.org/wiki/Gesenius%27_Hebrew_Grammar/32._The_Personal_Pronoun._The_Separate_Pronoun#GHGpar-32-l",
+          "UXLC GEN.38/1:2: הַהִ֔וא; accent on הִ."
+        ],
+        "pronunciation": {
+          "syllables": [
+            "ha",
+            "hi"
+          ],
+          "stressed": [
+            1
+          ]
+        }
+      }
+    },
+    "greek/reviewed-form-exceptions.json": {
+      "MAT 15:14!5": {
+        "original": "ὁδηγοὶ",
+        "macula": "ὁδηγοί",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "MAT 15:15!10": {
+        "original": "παραβολὴν",
+        "macula": "παραβολήν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "MAT 26:36!10": {
+        "original": "Γεθσημανί",
+        "macula": "Γεθσημανὶ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "MAT 27:24!1": {
+        "original": "Ἰδὼν",
+        "macula": "ἰδὼν",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "MRK 7:27!10": {
+        "original": "γὰρ",
+        "macula": "γάρ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "LUK 1:27!10": {
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "LUK 2:51!8": {
+        "original": "Ναζαρέθ",
+        "macula": "Ναζαρὲθ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "LUK 5:1!22": {
+        "original": "Γεννησαρέτ",
+        "macula": "Γεννησαρὲτ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "LUK 8:20!15": {
+        "original": "θέλοντες",
+        "macula": "θέλοντές",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 7:34!5": {
+        "original": "εὑρήσετε",
+        "macula": "εὑρήσετέ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 7:36!12": {
+        "original": "εὑρήσετε",
+        "macula": "εὑρήσετέ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 7:42!9": {
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 7:42!17": {
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 7:53!1": {
+        "original": "καὶ",
+        "macula": "Καὶ",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "JHN 8:1!6": {
+        "original": "ὄρος",
+        "macula": "Ὄρος",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "JHN 8:5!5": {
+        "original": "Μωσῆς",
+        "macula": "Μωϋσῆς",
+        "note": "MACULA spells the name Moses as Μωϋσῆς. The app keeps its SBLGNT form Μωσῆς and derives syllables from that form; the name gloss is equivalent."
+      },
+      "JHN 8:9!2": {
+        "original": "δέ",
+        "macula": "δὲ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "JHN 8:10!13": {
+        "original": "Ποῦ",
+        "macula": "ποῦ",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "JHN 8:10!19": {
+        "original": "Οὐδείς",
+        "macula": "οὐδείς",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "JHN 10:29!9": {
+        "original": "ἐστίν",
+        "macula": "ἐστιν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "ACT 2:29!12": {
+        "original": "Δαυίδ",
+        "macula": "Δαυὶδ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "1CO 14:37!14": {
+        "original": "ἐστίν",
+        "macula": "ἐστὶν",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "TIT 3:13!1": {
+        "original": "Ζηνᾶν",
+        "macula": "ζηνᾶν",
+        "note": "MACULA differs in capitalization only. The original app spelling is retained."
+      },
+      "HEB 3:6!9": {
+        "original": "ὃς",
+        "macula": "ὅς",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      },
+      "2PE 2:10!13": {
+        "original": "Τολμηταί",
+        "macula": "Τολμηταὶ",
+        "note": "MACULA differs in its written accent. The aligned word meaning is retained; pronunciation uses the accents of the original app text."
+      }
+    },
+    "greek/reviewed-gloss-overrides.json": {},
+    "greek/reviewed-grammar-rules.json": {
+      "article-marker-v1": {
+        "source": "macula-sblgnt",
+        "precondition": "The contextual gloss is missing or rejected as a placeholder; source class is det, source lemma is exactly ὁ, and source morphology begins T-.",
+        "explanation": "(article: the)",
+        "status": "reviewed",
+        "sourceKey": "reviewed-override",
+        "reason": "Greek definite articles often remain untranslated in English, especially before proper names. The grammar marker explains the actual source word without claiming an extra word belongs in an English sentence.",
+        "restriction": "This rule is only for verified article morphology. Other word classes require a verified occurrence-specific source gloss or are marked unavailable.",
+        "applicationLog": "sources/aids/greek-audit.json grammaticalMarkers"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+
+
+
+
+ 
+  
+   
+  
+  License
+
+  
+    body {font-family:Times New Roman}
+  
+
+
+        
+License
+
+            
+  
+  
+    All biblical Hebrew text, in any format, may be viewed or copied
+        without restriction.
+       
+         Citation of the Tanach.us site as the source of the text is appreciated: 
+         &#x00a0;
+         
+         Unicode/XML Leningrad Codex: 
+             UXLC 2.5 (27.6), 
+         Tanach.us Inc.,
+         West Redding, CT, USA, 
+         Apr 2026.
+         
+    
+  
+  
+    
+      
+      
+       Documents with restrictions
+      
+      
+    
+  
+  
+    Files in the Fonts directory are the property of other organizations.
+    See the Installation page for the license information.
+    
+  
+  
+    
+    All other files  and the look-and-feel of the site are copyrighted by Tanach.us Inc.  
+    and require written permission for any purpose.
+    
+  
+     
+  
+
+        
+
+  
+    
+      27.6
+    
+  
+
+
+
+
